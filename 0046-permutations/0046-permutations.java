@@ -1,36 +1,42 @@
-class Solution {
-    public void permutation(int [] nums, List<Integer> ds, boolean map[], List<List<Integer>>result)
-    {
-        if(ds.size()==nums.length)
-        {
-            result.add(new ArrayList<>(ds));
-            return ;
-        }
+class Solution {  //better approach
 
-        for(int i=0; i<map.length; i++)
+    public void f(int ind, int [] nums, List<List<Integer>> result)
+    {
+        //base case
+        List<Integer> ds = new ArrayList<>();
+        if(ind== nums.length)
         {
-            if(!map[i])
+            for(int i=0; i<nums.length; i++)
             {
                 ds.add(nums[i]);
-                map[i]=true;
-
-                permutation(nums, ds, map, result);
-
-                ds.remove(ds.size()-1);
-                map[i]=false;
             }
+        result.add(new ArrayList<>(ds));
+        return;
         }
 
+        for(int i=ind; i<nums.length; i++)
+        {
+            swap(ind, i, nums);
+            f(ind+1, nums, result);
+            swap(ind, i, nums);
+
+        }
     }
 
+    public void swap(int i, int j, int nums[])
+    {
+        int t= nums[i];
+        nums[i]= nums[j];
+        nums[j]= t;
+    }
 
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result= new ArrayList<>();
-        List<Integer> ds= new ArrayList<>();
-        boolean map[]= new boolean[nums.length];
 
-        permutation(nums, ds, map, result);
+        f(0, nums, result);
 
         return result;
+
+        
     }
 }
