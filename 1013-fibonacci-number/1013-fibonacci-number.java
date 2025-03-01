@@ -1,4 +1,4 @@
-class Solution { // tabulation (bottom - up)  TC: O() SC:O()
+class Solution { // tabulation (bottom - up)  TC: O(n) SC:O(n)
     public int fib(int n) {
 
         if(n<=1)
