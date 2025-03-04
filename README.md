@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0792-binary-search) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2876-number-of-employees-who-met-the-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2876-number-of-employees-who-met-the-target) |
 | [3331-minimum-operations-to-exceed-threshold-value-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3331-minimum-operations-to-exceed-threshold-value-i) |
 ## Divide and Conquer
 |  |
