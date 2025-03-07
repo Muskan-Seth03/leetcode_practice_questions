@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0128-longest-consecutive-sequence) |
 | [0198-house-robber](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0200-number-of-islands) |
 | [0747-min-cost-climbing-stairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0792-binary-search) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0200-number-of-islands) |
 | [1008-binary-tree-cameras](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1008-binary-tree-cameras) |
 ## Binary Tree
 |  |
@@ -78,12 +80,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0200-number-of-islands) |
 ## Matrix
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0073-set-matrix-zeroes) |
+| [0200-number-of-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0200-number-of-islands) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
 ## Math
 |  |
@@ -114,4 +118,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0278-first-bad-version](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0374-guess-number-higher-or-lower) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
