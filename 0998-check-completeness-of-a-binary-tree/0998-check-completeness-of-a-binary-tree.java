@@ -14,33 +14,26 @@
  * }
  */
 class Solution {
-    public boolean isCompleteTree(TreeNode root) {
-        if(root== null)
+    public int countNodes(TreeNode node)
+    {
+        if(node ==null)
+        return 0;
+        
+        return 1+ countNodes(node.left) + countNodes(node.right);
+    } 
+
+    public boolean dfs(TreeNode node, int i, int n)
+    {
+        if(node== null)
         return true;
+        if(i>=n)
+        return false;
 
-        Queue<TreeNode> q= new LinkedList<>();
-        q.offer(root);
-        boolean flag= false;  // to detect if the null node is encountered
-
-        while(!q.isEmpty())
-        {
-            TreeNode x= q.poll();
-            if(x== null)
-            {
-                flag=true;
-            }
-            else
-            {
-                if(flag==true)
-                return false;
-
-                else
-                {
-                    q.offer(x.left);
-                    q.offer(x.right);
-                }
-            }
-        }
-        return true;
+        return dfs(node.left, 2*i + 1, n) && dfs(node.right, 2*i+2, n);
     }
-} 
+
+    public boolean isCompleteTree(TreeNode root) {
+        int n= countNodes(root);
+        return dfs(root, 0, n);
+    }
+}
