@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0617-merge-two-binary-trees](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0617-merge-two-binary-trees) |
 | [0695-max-area-of-island](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0695-max-area-of-island) |
 | [0813-all-paths-from-source-to-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0813-all-paths-from-source-to-target) |
+| [0820-find-eventual-safe-states](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0820-find-eventual-safe-states) |
 | [1008-binary-tree-cameras](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1008-binary-tree-cameras) |
 ## Binary Tree
 |  |
@@ -141,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0617-merge-two-binary-trees](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0617-merge-two-binary-trees) |
 | [0695-max-area-of-island](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0695-max-area-of-island) |
 | [0813-all-paths-from-source-to-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0813-all-paths-from-source-to-target) |
+| [0820-find-eventual-safe-states](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0820-find-eventual-safe-states) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0998-check-completeness-of-a-binary-tree) |
 ## Sorting
 |  |
@@ -152,9 +154,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0210-course-schedule-ii) |
 | [0813-all-paths-from-source-to-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0813-all-paths-from-source-to-target) |
+| [0820-find-eventual-safe-states](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0820-find-eventual-safe-states) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0210-course-schedule-ii) |
+| [0820-find-eventual-safe-states](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0820-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
