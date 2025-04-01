@@ -1,48 +1,64 @@
-class Solution {   // using bfs (Kahn's algorithm --> indegree+ queue) TC: O(V*logV)+ O(V+E)
-    public List<Integer> eventualSafeNodes(int[][] graph) {       // SC:O(V)+O(V)+O(V) => O(3V)
-        int V= graph.length;
-        List<List<Integer>> reverseList = new ArrayList<>();
-        for (int i = 0; i < V; i++) {
-            reverseList.add(new ArrayList<>());
-        }
-        
-        int [] indegree= new int[V];
-        int visi[]= new int[V];
-        for(int i=0; i<V; i++)
+class Solution {   // using dfs TC: O(V+E)   SC: O(V)+O(V)+O(V) => O(3V)
+    public boolean dfs(int node, ArrayList<ArrayList<Integer>> adj, int[] visi, int[] pathVisi, int []check)
+    {
+        check[node]=0;
+        visi[node]=1;
+        pathVisi[node]=1;
+        for(int it: adj.get(node))
         {
-            for(int j: graph[i])
+            if(visi[it]==0)
             {
-                reverseList.get(j).add(i);
-                indegree[i]++;
+                if(dfs(it, adj, visi, pathVisi, check)==true)
+                return true;
             }
-        }
-        
-        Queue<Integer> q= new LinkedList<>();
-        for(int i=0; i<V; i++)
-        {
-            if(indegree[i]==0)
+            else if(visi[it]==1 && pathVisi[it]==1)
             {
-                q.offer(i);
-            }
-        }
-        ArrayList<Integer> safeNodes= new ArrayList<>();
-        
-        while(!q.isEmpty())
-        {
-            int node= q.poll();
-            safeNodes.add(node);    
-            for(int it: reverseList.get(node))
-            {
-                indegree[it]--;
-                if(indegree[it]==0)
-                {
-                    q.offer(it);
-                }
+                return true;  /// cycle exists
             }
             
         }
         
-        Collections.sort(safeNodes);
-        return safeNodes;
+        pathVisi[node]=0;
+        check[node]=1;  // safe node found
+        return false;
+    }
+
+    public List<Integer> eventualSafeNodes(int[][] graph) { 
+    int V= graph.length;
+    int visi[]= new int[V];
+    int pathVisi[]= new int [V];
+    int check[]= new int[V];
+    
+    Arrays.fill(visi, 0);
+    Arrays.fill(pathVisi, 0);
+    
+    ArrayList<ArrayList<Integer>> adj= new ArrayList<>();
+    for(int i=0; i<V;i++)
+    {
+        adj.add(new ArrayList<>());
+    }
+    for(int i=0; i<V; i++)
+    {
+        for(int j: graph[i])
+        {
+            adj.get(i).add(j);
+        }
+    }
+
+    for(int i=0; i<V; i++)
+    {
+        if(visi[i]==0)
+        {
+            dfs(i, adj, visi, pathVisi, check);
+        }
+    }
+    
+     List<Integer> safeNodes= new ArrayList<>();
+     for(int i=0; i<V; i++)
+     {
+         if(check[i]==1)
+         safeNodes.add(i);
+     }
+     return safeNodes;
     }
 }
