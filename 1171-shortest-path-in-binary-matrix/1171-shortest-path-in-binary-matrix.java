@@ -18,11 +18,12 @@ class Solution {
         // Edge Case: if the source is only the destination.
         if(n==1 && grid[0][0]==1) return -1;
         if(n==1 && grid[0][0]==0) return 1;
-        // if  first cell is blocked then no further path
+        // if  first cell and last cell is blocked then no further path
         if(grid[0][0]==1 || grid[n-1][n-1]==1)
         return -1;
 
         Queue<Tuple> q= new LinkedList<>();
+        boolean visi[][] = new boolean [n][n];
         
         int dist[][]= new int [n][n];
         // initialise dist array 
@@ -34,7 +35,8 @@ class Solution {
         int ic= 0;
         
         dist[ir][ic]=0;
-        
+        visi[0][0]= true;
+
         q.offer(new Tuple(0, ir, ic));
         
         while(!q.isEmpty())
@@ -57,6 +59,7 @@ class Solution {
                     dis + 1 < dist[fr][fc])
                 {
                     dist[fr][fc]= dis +1;
+                    visi[fr][fc]=true;
                     q.offer(new Tuple(dist[fr][fc], fr, fc));
                 
                     if(fr == n-1 && fc == n-1)
