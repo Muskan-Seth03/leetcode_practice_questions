@@ -1,28 +1,18 @@
-class Pair   // using bfs to keep track of starting node and visi array to keep track of nodes visited 
-{
-    int first;
-    int second;
-    Pair(int first, int second)
-    {
-        this.first= first;
-        this.second= second;
-    }
-    
-}
-class Solution {
-    public static void  bfs(int i, int j, int [][]visi, char[][]grid)
+class Solution {  //  using dfs TC:O()  SC:O(m*n)
+    public static void  dfs(int i, int j, int [][]visi, char[][]grid)
     {
         int m= grid.length;
         int n= grid[0].length;
         visi[i][j]=1;
-        Queue<Pair> q= new LinkedList<Pair>();
-        q.offer(new Pair(i, j));
+        grid[i][j]=0;
+        Stack<int[]> s= new Stack<>();
+        s.push(new int[]{i,j});
 
-        while(!q.isEmpty())
+        while(!s.isEmpty())
         {
-            Pair it= q.poll();
-            int row= it.first;
-            int col= it.second;
+            int []it= s.pop();
+            int row= it[0];
+            int col= it[1];
 
             int dir_r[] = {-1, 0, 1, 0};
             int dir_c[]= {0, 1, 0, -1};
@@ -34,7 +24,7 @@ class Solution {
     if(new_row>=0 && new_row<m && new_col>=0 && new_col<n && grid[new_row][new_col] =='1' && visi[new_row][new_col]==0)
                 {
                     visi[new_row][new_col]=1;
-                    q.offer(new Pair(new_row, new_col));
+                    s.push(new int[]{new_row, new_col});
                 }
             }
         }
@@ -60,7 +50,7 @@ class Solution {
                 if(visi[i][j]==0 && grid[i][j]=='1')
                 {
                     count++;
-                    bfs(i, j, visi, grid);
+                    dfs(i, j, visi, grid);
                 }
             }
         }
