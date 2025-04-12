@@ -1,10 +1,10 @@
-class Solution {  //  using dfs TC:O()  SC:O(m*n)
-    public static void  dfs(int i, int j, int [][]visi, char[][]grid)
+class Solution {  //  using dfs TC:O(m*n)  SC:O(m*n)
+    public static void  dfs(int i, int j, char[][]grid)
     {
         int m= grid.length;
         int n= grid[0].length;
-        visi[i][j]=1;
-        grid[i][j]=0;
+        
+        grid[i][j]='0';//  mark as visited
         Stack<int[]> s= new Stack<>();
         s.push(new int[]{i,j});
 
@@ -21,9 +21,10 @@ class Solution {  //  using dfs TC:O()  SC:O(m*n)
                 int new_row= row + dir_r[k];
                 int new_col= col + dir_c[k];
 
-    if(new_row>=0 && new_row<m && new_col>=0 && new_col<n && grid[new_row][new_col] =='1' && visi[new_row][new_col]==0)
+    if(new_row>=0 && new_row<m && new_col>=0 && new_col<n && grid[new_row][new_col] =='1')
                 {
-                    visi[new_row][new_col]=1;
+                    
+                    grid[new_row][new_col]= '0';
                     s.push(new int[]{new_row, new_col});
                 }
             }
@@ -35,22 +36,16 @@ class Solution {  //  using dfs TC:O()  SC:O(m*n)
         int m= grid.length;
         int n= grid[0].length;
         int visi[][]= new int[m][n];
-        for(int i=0; i<m; i++)
-        {
-            for(int j=0; j<n; j++)
-            {
-                visi[i][j]= 0;
-            }
-        }
+       
         int count=0;
         for(int i=0; i<m; i++)
         {
             for(int j=0; j<n; j++)
             {
-                if(visi[i][j]==0 && grid[i][j]=='1')
+                if(grid[i][j]=='1')
                 {
                     count++;
-                    dfs(i, j, visi, grid);
+                    dfs(i, j, grid);
                 }
             }
         }
