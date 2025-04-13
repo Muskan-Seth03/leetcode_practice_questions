@@ -24,21 +24,43 @@ class Solution {  // iterative dfs  TC:O(m*n)  SC:O(m*n)
     }
 
     private static int dfs(int[][] grid, int i, int j) {
-
         int m = grid.length, n = grid[0].length;
-
         // boundary and water check 
         if (i < 0 || i >= m || j < 0 || j >= n || grid[i][j] == 0) {
             return 0;
         }
-        grid[i][j] = 0;   //mark it as visited
-        int area=1;
 
-        // check in all 4 directions
-        area+= dfs(grid, i + 1, j);
-        area+= dfs(grid, i - 1, j);
-        area+= dfs(grid, i, j + 1);
-        area+= dfs(grid, i, j - 1);
+        Stack<int[]> s= new Stack<>();
+        s.push(new int[]{i, j});
+
+        grid[i][j] = 0;   //mark it as visited
+        
+        int dir_r[]= {0, -1, 0, 1};
+        int dir_c[]= {-1, 0, 1, 0};
+        
+        int area=1;
+        while(!s.isEmpty())
+        {
+            int [] it= s.pop();
+            int row= it[0];
+            int col= it[1];
+
+            for(int k=0; k<4; k++)
+            {
+                int new_r= row + dir_r[k];
+                int new_c= col + dir_c[k];
+
+                if( new_r>=0 && new_r <m && new_c>=0 && new_c<n && grid[new_r][new_c]== 1)
+                {
+                    area++;
+                    s.push(new int []{new_r, new_c});
+                    // mark neighbour as vsited
+                    grid[new_r][new_c]=0;
+                }
+
+            }
+
+        }
 
         return area;
     }
