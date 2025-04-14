@@ -1,27 +1,15 @@
-class Pair{     // using bfs  TC:O(m*n)  SC:O(m*n)
-    int first;
-    int second;
-    Pair(int first, int second)
-    {
-        this.first= first;
-        this.second= second;
-    }
-}
-class Solution {
+class Solution {   // iterative dfs   TC:O(m*n)  SC:O(m*n)
     public int islandPerimeter(int[][] grid) {
         if (grid == null || grid.length == 0) return 0;
         int m = grid.length, n = grid[0].length;
         int perimeter=0;
         int count=0;
 
-        int visi[][]= new int [m][n];
-
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[0].length; j++) {
-                if (visi[i][j] == 0 && grid[i][j]==1) {
+                if (grid[i][j] == 1) {
                     count++;
-                    perimeter=bfs(grid, i, j, visi, perimeter);
-                    break;
+                    perimeter=dfs(grid, i, j);
                 }
             }
         }
@@ -31,47 +19,48 @@ class Solution {
             return 0;
         }
         return perimeter;
+        
     }
 
-    private static int bfs(int[][] grid, int i, int j, int [][]visi, int perimeter) {
+    private static int dfs(int[][] grid, int i, int j) {
         int m = grid.length, n = grid[0].length;
-        
-        Queue<Pair> q= new LinkedList<>();
-        q.offer(new Pair(i, j));
-        visi[i][j]=1;
+        int perimeter=0;
 
+        Stack<int[]> s= new Stack<>();
+        s.push(new int[]{i, j});
+        
         int dir_r[]= {0, -1, 0, 1};
         int dir_c[]= {-1, 0, 1, 0};
         
-        while(!q.isEmpty())
+        while(!s.isEmpty())
         {
-            Pair it= q.poll();
-            int row= it.first;
-            int col= it.second;
-            
+            int [] it= s.pop();
+            int row= it[0];
+            int col= it[1];
+        
+            grid[row][col] = -1; // Mark as visited
+
             for(int k=0; k<4; k++)
             {
                 int new_r= row + dir_r[k];
                 int new_c= col + dir_c[k];
 
-                if( new_r>=0 && new_r <m && new_c>=0 && new_c<n && grid[new_r][new_c]==1 && visi[new_r][new_c]== 0)
+                if( new_r>=0 && new_r <m && new_c>=0 && new_c<n && grid[new_r][new_c]== 1)
                 {
-                    q.offer(new Pair(new_r, new_c));
-                    visi[new_r][new_c]=1;
+                    s.push(new int []{new_r, new_c});
+                    grid[new_r][new_c]=-1;
                 }
-                else if( new_r<0 || new_r >=m || new_c<0 || new_c>=n || grid[new_r][new_c]==0)
-                {
+                
+                // boundary and water check 
+  else if (new_r < 0 || new_r >= m || new_c < 0 || new_c >= n || grid[new_r] [new_c] == 0) {
                     perimeter++;
-                    new_r= row;
-                    new_c= col;
-
+                
                 }
 
             }
-        }
-        return perimeter;
 
+        }
+
+        return perimeter;
     }
 }
-
-            
