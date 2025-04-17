@@ -1,35 +1,30 @@
-import java.util.*;
-
+import java.util.*;  // using 1 queue
 class MyStack {
-    Queue<Integer> q1;
-    Queue<Integer> q2;
+    Queue<Integer> q;
 
     public MyStack() {
-        q1 = new LinkedList<>();
-        q2 = new LinkedList<>();
+        q = new LinkedList<>();
     }
 
     public void push(int x) {
-        q1.offer(x);
-        while (!q2.isEmpty()) {
-            q1.offer(q2.poll());
-        }
-
-        // Swap q1 and q2
-        Queue<Integer> temp = q1;
-        q1 = q2;
-        q2 = temp;
+        q.offer(x);
+        int n= q.size();
+        while(n-2>=0)
+        {
+            q.offer(q.poll());
+            n--;
+        }    
     }
 
     public int pop() {
-        return q2.poll();
+        return q.poll();
     }
 
     public int top() {
-        return q2.peek();
+        return q.peek();
     }
 
     public boolean empty() {
-        return q2.isEmpty();
+        return q.isEmpty();
     }
 }
