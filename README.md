@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-min-cost-climbing-stairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0792-binary-search) |
 | [1036-rotting-oranges](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1036-rotting-oranges) |
+| [1104-coloring-a-border](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1104-coloring-a-border) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1876-map-of-highest-peak](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1876-map-of-highest-peak) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0813-all-paths-from-source-to-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0820-find-eventual-safe-states) |
 | [1008-binary-tree-cameras](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1008-binary-tree-cameras) |
+| [1104-coloring-a-border](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1104-coloring-a-border) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2206-detonate-the-maximum-bombs) |
 ## Binary Tree
 |  |
@@ -122,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1036-rotting-oranges) |
+| [1104-coloring-a-border](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1104-coloring-a-border) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1876-map-of-highest-peak](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1876-map-of-highest-peak) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
@@ -171,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0820-find-eventual-safe-states) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1036-rotting-oranges) |
+| [1104-coloring-a-border](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1104-coloring-a-border) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1876-map-of-highest-peak](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1876-map-of-highest-peak) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2206-detonate-the-maximum-bombs) |
