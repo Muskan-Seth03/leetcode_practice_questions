@@ -1,7 +1,7 @@
-class Solution {   //dfs + stack + visi
-                   //TC:O(m*n)   SC:O(m*n) 
+class Solution { //dfs + stack (no visi array --in place change of visited land cell to water )
+                //TC:O(m*n)   SC:O(m*n) 
 
-    public static int dfs(int row, int col, int [][]grid1, int[][]grid2, int[][]visi)
+    public static int dfs(int row, int col, int [][]grid1, int[][]grid2)
     {
         int m= grid1.length;
         int n= grid1[0].length;
@@ -27,9 +27,9 @@ class Solution {   //dfs + stack + visi
                 int new_r= r+ dr[i];
                 int new_c= c + dc[i];
 
-                if(new_r>=0 && new_r<m && new_c>=0 && new_c< n && grid2[new_r][new_c]==1 && visi[new_r][new_c]==0)
+                if(new_r>=0 && new_r<m && new_c>=0 && new_c< n && grid2[new_r][new_c]==1)
                 {
-                    visi[new_r][new_c]=1;  // visit that cell 
+                    grid2[new_r][new_c]=0;  // visit that cell 
                     s.push(new int[]{new_r, new_c});
                 }
             }
@@ -41,21 +41,16 @@ class Solution {   //dfs + stack + visi
     public int countSubIslands(int[][] grid1, int[][] grid2) {
         int m= grid1.length;
         int n= grid1[0].length;
-
         int count=0;
-        int [][]visi= new int[m][n];
-
+       
         for(int i=0; i<m; i++)
         {
             for(int j=0; j<n; j++)
             {
-                if(visi[i][j]==0 && grid2[i][j]==1)  // not visited + land cell
+                if(grid2[i][j]==1)  // land cell
                 {
-                    visi[i][j]=1;
-                    if(grid2[i][j]==1)
-                    {
-                        count+= dfs(i, j, grid1, grid2, visi);
-                    }
+                    grid2[i][j]=0;
+                    count+= dfs(i, j, grid1, grid2);  
                 }
             }
         }
