@@ -1,3 +1,6 @@
+// TC:O(m)+ O(n)+ O(m*n*4)   in worst case m*n dfs calls checking in 4 directions  
+// SC:O(m*n) for visi array and auxillary stack space 
+
 class Solution {   //iterative dfs
     public  void  dfs(int  row, int col, char[][]board, int[][]visi, int dr[], int dc[])
     {
