@@ -38,7 +38,7 @@ class Solution {
             int count = 0;
             for (int j = 0; j < n; j++)
             {
-                if (dist[i][j] <= distanceThreshold) 
+                if ( i!=j && dist[i][j] <= distanceThreshold) 
                 {
                     count++;
                 }
