@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1008-binary-tree-cameras](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1008-binary-tree-cameras) |
 | [1013-fibonacci-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1236-n-th-tribonacci-number) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 ## Two Pointers
 |  |
 | ------- |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0547-number-of-provinces) |
 | [0813-all-paths-from-source-to-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0820-find-eventual-safe-states) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2206-detonate-the-maximum-bombs) |
 ## Topological Sort
 |  |
@@ -244,4 +246,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0225-implement-stack-using-queues) |
+## Shortest Path
+|  |
+| ------- |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 <!---LeetCode Topics End-->
