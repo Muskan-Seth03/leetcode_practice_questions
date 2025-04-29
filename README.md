@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1008-binary-tree-cameras](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1008-binary-tree-cameras) |
 | [1013-fibonacci-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1236-n-th-tribonacci-number) |
+| [1250-longest-common-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1250-longest-common-subsequence) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 ## Two Pointers
 |  |
@@ -224,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0127-word-ladder) |
 | [0433-minimum-genetic-mutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0433-minimum-genetic-mutation) |
 | [0657-robot-return-to-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0657-robot-return-to-origin) |
+| [1250-longest-common-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1250-longest-common-subsequence) |
 | [2239-execution-of-all-suffix-instructions-staying-in-a-grid](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2239-execution-of-all-suffix-instructions-staying-in-a-grid) |
 | [3019-furthest-point-from-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3019-furthest-point-from-origin) |
 ## Counting
