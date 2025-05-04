@@ -16,16 +16,14 @@ class Solution {  //TC: O(n)  SC:O(1)
             {
                 map.put(ch, map.get(ch)-1);
             }
-            else
-            return false;  
-
-            if(map.get(ch)==0)
-            map.remove(ch); 
         }
-        if(!map.isEmpty())
-        return false;
-        else
+        // Check if any character has non-zero frequency
+        for (int val : map.values()) {
+            if (val != 0) {
+                return false;
+            }
+        }
+        
         return true;
-
     }
 }
