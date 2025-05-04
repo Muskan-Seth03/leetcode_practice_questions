@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0169-majority-element) |
+| [0205-isomorphic-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0205-isomorphic-strings) |
 | [0433-minimum-genetic-mutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0433-minimum-genetic-mutation) |
 ## Union Find
 |  |
@@ -229,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0014-longest-common-prefix) |
 | [0127-word-ladder](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0127-word-ladder) |
+| [0205-isomorphic-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0205-isomorphic-strings) |
 | [0433-minimum-genetic-mutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0433-minimum-genetic-mutation) |
 | [0516-longest-palindromic-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0516-longest-palindromic-subsequence) |
 | [0657-robot-return-to-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0657-robot-return-to-origin) |
