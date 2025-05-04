@@ -227,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0014-longest-common-prefix) |
 | [0127-word-ladder](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0127-word-ladder) |
 | [0433-minimum-genetic-mutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0433-minimum-genetic-mutation) |
 | [0516-longest-palindromic-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0516-longest-palindromic-subsequence) |
@@ -259,4 +260,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
