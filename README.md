@@ -234,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0433-minimum-genetic-mutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0433-minimum-genetic-mutation) |
 | [0516-longest-palindromic-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0516-longest-palindromic-subsequence) |
 | [0657-robot-return-to-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0657-robot-return-to-origin) |
+| [0812-rotate-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0812-rotate-string) |
 | [1250-longest-common-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1250-longest-common-subsequence) |
 | [2239-execution-of-all-suffix-instructions-staying-in-a-grid](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2239-execution-of-all-suffix-instructions-staying-in-a-grid) |
 | [3019-furthest-point-from-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3019-furthest-point-from-origin) |
@@ -266,4 +267,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0014-longest-common-prefix) |
+## String Matching
+|  |
+| ------- |
+| [0812-rotate-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0812-rotate-string) |
 <!---LeetCode Topics End-->
