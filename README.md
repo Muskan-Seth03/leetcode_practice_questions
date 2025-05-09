@@ -250,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0812-rotate-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0812-rotate-string) |
 | [1250-longest-common-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1250-longest-common-subsequence) |
 | [2239-execution-of-all-suffix-instructions-staying-in-a-grid](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2239-execution-of-all-suffix-instructions-staying-in-a-grid) |
+| [2365-percentage-of-letter-in-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2365-percentage-of-letter-in-string) |
 | [2378-sender-with-largest-word-count](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2378-sender-with-largest-word-count) |
 | [2427-first-letter-to-appear-twice](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2427-first-letter-to-appear-twice) |
 | [3019-furthest-point-from-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3019-furthest-point-from-origin) |
