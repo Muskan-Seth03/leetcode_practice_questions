@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0290-word-pattern) |
 | [0433-minimum-genetic-mutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0433-minimum-genetic-mutation) |
+| [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
 | [2378-sender-with-largest-word-count](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2378-sender-with-largest-word-count) |
 ## Union Find
 |  |
@@ -214,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0242-valid-anagram) |
+| [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
 ## Graph
 |  |
 | ------- |
@@ -239,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0290-word-pattern) |
 | [0433-minimum-genetic-mutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0433-minimum-genetic-mutation) |
+| [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0516-longest-palindromic-subsequence) |
 | [0657-robot-return-to-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0657-robot-return-to-origin) |
 | [0812-rotate-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0812-rotate-string) |
@@ -250,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0169-majority-element) |
+| [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
 | [2378-sender-with-largest-word-count](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2378-sender-with-largest-word-count) |
 | [3019-furthest-point-from-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3019-furthest-point-from-origin) |
 ## Geometry
@@ -280,4 +284,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0812-rotate-string) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
+## Bucket Sort
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
 <!---LeetCode Topics End-->
