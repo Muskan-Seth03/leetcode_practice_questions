@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0433-minimum-genetic-mutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0433-minimum-genetic-mutation) |
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
 | [2378-sender-with-largest-word-count](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2378-sender-with-largest-word-count) |
+| [2427-first-letter-to-appear-twice](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2427-first-letter-to-appear-twice) |
 ## Union Find
 |  |
 | ------- |
@@ -250,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1250-longest-common-subsequence) |
 | [2239-execution-of-all-suffix-instructions-staying-in-a-grid](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2239-execution-of-all-suffix-instructions-staying-in-a-grid) |
 | [2378-sender-with-largest-word-count](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2378-sender-with-largest-word-count) |
+| [2427-first-letter-to-appear-twice](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2427-first-letter-to-appear-twice) |
 | [3019-furthest-point-from-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3019-furthest-point-from-origin) |
 ## Counting
 |  |
@@ -258,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
 | [2378-sender-with-largest-word-count](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2378-sender-with-largest-word-count) |
+| [2427-first-letter-to-appear-twice](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2427-first-letter-to-appear-twice) |
 | [3019-furthest-point-from-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3019-furthest-point-from-origin) |
 ## Geometry
 |  |
@@ -296,4 +299,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
+## Bit Manipulation
+|  |
+| ------- |
+| [2427-first-letter-to-appear-twice](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2427-first-letter-to-appear-twice) |
 <!---LeetCode Topics End-->
