@@ -1,18 +1,14 @@
-class Solution {   //TC:O(n)   SC:O(n)
+class Solution {
     public boolean divideArray(int[] nums) {
-        HashMap<Integer, Integer> map = new HashMap<>();
-        for(int num: nums)
-        {
-            map.put(num, map.getOrDefault(num, 0) +1);    // O(1)
-        }  
-        for(Map.Entry<Integer, Integer> entry : map.entrySet())
-        {
-            if(entry.getValue() % 2!=0)
-            {
+        int[] freq=new int[501];
+        for(int num:nums){
+            freq[num]++;
+        }
+        for(int i=0;i<freq.length;i++){
+            if (freq[i]%2!=0){
                 return false;
             }
         }
         return true;
-        
     }
 }
