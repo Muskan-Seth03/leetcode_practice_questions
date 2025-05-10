@@ -1,25 +1,24 @@
-class Solution {   // TC:O(n)  SC:O(1)
+class Solution {   // TC:O(n)  SC:O(n)
     public int mostFrequent(int[] nums, int key) {
         int n= nums.length;
-        int[] freq=new int[1001];
-        Arrays.fill(freq, 0);
-
-        for(int i=0; i < n-1 ; i++)
+       
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for(int i=0; i< n-1 ; i++)
         {
-            if(nums[i]==key)
+            if(nums[i] == key)
             {
-                freq[nums[i+1]]++;
+                map.put(nums[i+1], map.getOrDefault(nums[i+1], 0) +1);    // O(1)
             }
-        }
-
+        }  
+       
         int max_freq=0;
         int target=0;
-        for(int i=0; i < 1001 ; i++)
+        for(Map.Entry<Integer, Integer> entry : map.entrySet())    // O(n)
         {
-            if( freq[i]> max_freq)
+            if( entry.getValue() > max_freq)
             {
-                max_freq= freq[i];
-                target= i;
+                max_freq= entry.getValue();
+                target= entry.getKey();
             }
         }
         return target;
