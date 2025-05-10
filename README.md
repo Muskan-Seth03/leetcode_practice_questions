@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2502-sort-the-people) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2876-number-of-employees-who-met-the-target) |
 | [3331-minimum-operations-to-exceed-threshold-value-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3331-minimum-operations-to-exceed-threshold-value-i) |
+| [3347-distribute-elements-into-two-arrays-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3347-distribute-elements-into-two-arrays-i) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0657-robot-return-to-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0657-robot-return-to-origin) |
 | [2239-execution-of-all-suffix-instructions-staying-in-a-grid](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2239-execution-of-all-suffix-instructions-staying-in-a-grid) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2271-rearrange-array-elements-by-sign) |
+| [3347-distribute-elements-into-two-arrays-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3347-distribute-elements-into-two-arrays-i) |
 ## Backtracking
 |  |
 | ------- |
