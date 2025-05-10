@@ -1,19 +1,27 @@
-class Solution {
+class Solution {   //  TC: O(n^2)  SC:O(n)
     public String[] sortPeople(String[] names, int[] heights) {
-        Map<Integer,String> map= new HashMap<>();
-        for(int i=0;i<names.length;i++)
-        {
-            map.put(heights[i],names[i]);
-        }
+       int n= names.length;
 
-        Arrays.sort(heights);
+       for(int i=0; i< n; i++)
+       {
+            for(int j=i+1; j<n ; j++)
+            {
+                if(heights[j]> heights[i])
+                {
+                    // swap them
+                    int tempH= heights[j];
+                    heights[j]= heights[i];
+                    heights[i]= tempH;
 
-        String[] sortedNames= new String[names.length];
-        int index=0;
-        for(int i=heights.length-1;i>=0;i--)
-        {
-            sortedNames[index++]=map.get(heights[i]);
+
+                    // swap names
+                    String tempN= names[j];
+                    names[j]= names[i];
+                    names[i]= tempN;
+                }
+            }
+           
         }
-        return sortedNames;
+         return names;
     }
 }
