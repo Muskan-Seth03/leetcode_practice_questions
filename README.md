@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2312-most-frequent-number-following-key-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2312-most-frequent-number-following-key-in-an-array) |
 | [2378-sender-with-largest-word-count](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2378-sender-with-largest-word-count) |
 | [2421-maximum-number-of-pairs-in-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2421-maximum-number-of-pairs-in-array) |
+| [2502-sort-the-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2502-sort-the-people) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2876-number-of-employees-who-met-the-target) |
 | [3331-minimum-operations-to-exceed-threshold-value-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3331-minimum-operations-to-exceed-threshold-value-i) |
 ## Divide and Conquer
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2378-sender-with-largest-word-count](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2378-sender-with-largest-word-count) |
 | [2421-maximum-number-of-pairs-in-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2421-maximum-number-of-pairs-in-array) |
 | [2427-first-letter-to-appear-twice](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2427-first-letter-to-appear-twice) |
+| [2502-sort-the-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2502-sort-the-people) |
 ## Union Find
 |  |
 | ------- |
@@ -227,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
+| [2502-sort-the-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2502-sort-the-people) |
 ## Graph
 |  |
 | ------- |
@@ -262,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2365-percentage-of-letter-in-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2365-percentage-of-letter-in-string) |
 | [2378-sender-with-largest-word-count](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2378-sender-with-largest-word-count) |
 | [2427-first-letter-to-appear-twice](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2427-first-letter-to-appear-twice) |
+| [2502-sort-the-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2502-sort-the-people) |
 | [3019-furthest-point-from-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3019-furthest-point-from-origin) |
 ## Counting
 |  |
