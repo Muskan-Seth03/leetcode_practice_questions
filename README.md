@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2206-detonate-the-maximum-bombs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2308-divide-array-into-equal-pairs) |
+| [2312-most-frequent-number-following-key-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2312-most-frequent-number-following-key-in-an-array) |
 | [2378-sender-with-largest-word-count](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2378-sender-with-largest-word-count) |
 | [2421-maximum-number-of-pairs-in-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2421-maximum-number-of-pairs-in-array) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2876-number-of-employees-who-met-the-target) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2308-divide-array-into-equal-pairs) |
+| [2312-most-frequent-number-following-key-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2312-most-frequent-number-following-key-in-an-array) |
 | [2378-sender-with-largest-word-count](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2378-sender-with-largest-word-count) |
 | [2421-maximum-number-of-pairs-in-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2421-maximum-number-of-pairs-in-array) |
 | [2427-first-letter-to-appear-twice](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2427-first-letter-to-appear-twice) |
@@ -268,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2308-divide-array-into-equal-pairs) |
+| [2312-most-frequent-number-following-key-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2312-most-frequent-number-following-key-in-an-array) |
 | [2378-sender-with-largest-word-count](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2378-sender-with-largest-word-count) |
 | [2421-maximum-number-of-pairs-in-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2421-maximum-number-of-pairs-in-array) |
 | [2427-first-letter-to-appear-twice](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2427-first-letter-to-appear-twice) |
