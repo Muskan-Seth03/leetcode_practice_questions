@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1073-number-of-enclaves) |
 | [1104-coloring-a-border](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1104-coloring-a-border) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1876-map-of-highest-peak](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1876-map-of-highest-peak) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0387-first-unique-character-in-a-string) |
 | [0433-minimum-genetic-mutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0433-minimum-genetic-mutation) |
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2312-most-frequent-number-following-key-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2312-most-frequent-number-following-key-in-an-array) |
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2502-sort-the-people) |
 ## Graph
@@ -267,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0657-robot-return-to-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0657-robot-return-to-origin) |
 | [0812-rotate-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0812-rotate-string) |
 | [1250-longest-common-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1250-longest-common-subsequence) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [2239-execution-of-all-suffix-instructions-staying-in-a-grid](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2239-execution-of-all-suffix-instructions-staying-in-a-grid) |
 | [2365-percentage-of-letter-in-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2365-percentage-of-letter-in-string) |
 | [2378-sender-with-largest-word-count](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2378-sender-with-largest-word-count) |
