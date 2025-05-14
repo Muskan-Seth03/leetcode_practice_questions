@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0073-set-matrix-zeroes) |
 | [0127-word-ladder](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0127-word-ladder) |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1013-fibonacci-number) |
@@ -261,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0014-longest-common-prefix) |
 | [0049-group-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0049-group-anagrams) |
 | [0127-word-ladder](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0127-word-ladder) |
