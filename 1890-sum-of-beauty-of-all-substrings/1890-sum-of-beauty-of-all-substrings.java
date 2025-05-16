@@ -1,23 +1,4 @@
-class Solution {  // better approach  TC:O(n^2 * 26)==> O(n^2)  SC:O(1)
-    public int getMax(int freq[])
-    {
-        int max_value= 0;
-        for(int i=0; i<26; i++)
-        {
-            max_value= Math.max(max_value, freq[i]);
-        }
-        return max_value;
-    }
-    public int getMin(int freq[])
-    {
-        int min_value= Integer.MAX_VALUE;
-        for(int i=0; i<26; i++)
-        {
-            if(freq[i]!=0)   //ignore if freq is zero, it means it is non existing. 
-            min_value= Math.min(min_value, freq[i]);
-        }
-        return min_value;
-    }
+class Solution {  // optimal approach  TC:O(n^2 * 26)==> O(n^2)  SC:O(1)
     public int beautySum(String s) {
         int n= s.length();
         int sum=0;
@@ -29,10 +10,22 @@ class Solution {  // better approach  TC:O(n^2 * 26)==> O(n^2)  SC:O(1)
                 //generate substring  //count frequency
                 //count beauty  //add to sum
                 freq[s.charAt(j) - 'a']++;
-                int beauty= getMax(freq) - getMin(freq); 
-                sum+= beauty;
+                int max_freq = 0, min_freq = Integer.MAX_VALUE;
+                for (int k = 0; k < 26; k++)
+                {
+                    if (freq[k] > 0)  //ignore if freq is zero, it means it is non existing. 
+                    {
+                        max_freq= Math.max(max_freq, freq[k]);
+                        min_freq= Math.min(min_freq, freq[k]);
+                    }
+                }
+                sum+= (max_freq - min_freq);
             }
         }
         return sum;
     }
 }
+
+
+             
+               
