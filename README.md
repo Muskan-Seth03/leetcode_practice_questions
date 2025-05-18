@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [1960-check-if-the-sentence-is-pangram](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2312-most-frequent-number-following-key-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2312-most-frequent-number-following-key-in-an-array) |
 | [2378-sender-with-largest-word-count](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2378-sender-with-largest-word-count) |
@@ -292,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1910-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1910-check-if-binary-string-has-at-most-one-segment-of-ones) |
+| [1960-check-if-the-sentence-is-pangram](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [1999-longer-contiguous-segments-of-ones-than-zeros](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1999-longer-contiguous-segments-of-ones-than-zeros) |
 | [2239-execution-of-all-suffix-instructions-staying-in-a-grid](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2239-execution-of-all-suffix-instructions-staying-in-a-grid) |
 | [2365-percentage-of-letter-in-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2365-percentage-of-letter-in-string) |
