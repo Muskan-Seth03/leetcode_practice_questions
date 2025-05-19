@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0200-number-of-islands) |
+| [0215-kth-largest-element-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0463-island-perimeter](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0695-max-area-of-island) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0215-kth-largest-element-in-an-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -248,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
@@ -354,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
 ## Bucket Sort
 |  |
@@ -365,4 +369,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2308-divide-array-into-equal-pairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2427-first-letter-to-appear-twice](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2427-first-letter-to-appear-twice) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2594-count-pairs-of-similar-strings) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0215-kth-largest-element-in-an-array) |
 <!---LeetCode Topics End-->
