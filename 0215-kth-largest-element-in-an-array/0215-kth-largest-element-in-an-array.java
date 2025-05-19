@@ -1,19 +1,28 @@
-class Solution {  // using max-heap  TC:O(n+ klogn)  SC:O(n)
+public class Solution {
     public int findKthLargest(int[] nums, int k) {
-        int n= nums.length;
-        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder()); //max-heap
-
-        for(int i=0; i< n; i++)   //O(n)
-        {
-            pq.offer(nums[i]);
+        int start = 0, end = nums.length - 1, index = nums.length - k;
+        while (start < end) {
+            int pivot = partion(nums, start, end);
+            if (pivot < index) start = pivot + 1; 
+            else if (pivot > index) end = pivot - 1;
+            else return nums[pivot];
         }
-        int j= k-1;
-        while(j>0)    // O((k-1).logn)   ==>  O(k.logn)
-        {
-            pq.poll();
-            j--;
+        return nums[start];
+    }
+    
+    private int partion(int[] nums, int start, int end) {
+        int pivot = start, temp;
+        while (start <= end) {
+            while (start <= end && nums[start] <= nums[pivot]) start++;
+            while (start <= end && nums[end] > nums[pivot]) end--;
+            if (start > end) break;
+            temp = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp;
         }
-        return pq.peek();
-
+        temp = nums[end];
+        nums[end] = nums[pivot];
+        nums[pivot] = temp;
+        return end;
     }
 }
