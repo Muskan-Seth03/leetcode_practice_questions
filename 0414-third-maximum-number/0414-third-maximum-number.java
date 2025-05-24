@@ -1,15 +1,33 @@
-import java.util.*;     // using set operations  TC:O(n)  SC:O(n)
+import java.util.*;     // using 3 variables  TC:O(n)  SC:O(1)
 class Solution {
     public int thirdMax(int[] nums) {
-        Set<Integer> s = new HashSet<>();
-        for (int n : nums) s.add(n);
+       int n= nums.length;
+       Integer first= null, second= null, third= null;
 
-        if(s.size()<3)
-        return Collections.max(s);
+       for(int i=0; i< n; i++)
+       {
+            if( first != null && nums[i] == first ||
+                second != null &&  nums[i] == second ||
+                third != null && nums[i] == third)
+                continue;
 
-        s.remove(Collections.max(s));
-        s.remove(Collections.max(s));
+            if(first== null || nums[i]> first)
+            {
+                third= second;
+                second= first;
+                first= nums[i];
+            }
+            else if(second== null || nums[i] > second)
+            {
+                third= second;
+                second= nums[i];
+            }
+            else if(third == null || nums[i] > third)
+            {
+                third= nums[i];
+            }
+        }
 
-        return Collections.max(s);
+        return third== null ? first: third ;
     }
 }
