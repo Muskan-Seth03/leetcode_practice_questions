@@ -1,17 +1,15 @@
+import java.util.*;     // using set operations  TC:O(n)  SC:O(n)
 class Solution {
     public int thirdMax(int[] nums) {
-        int n= nums.length;
-        Arrays.sort(nums);
-        int count=1;
-        for(int i= n-2; i>=0; i--)
-        {
-            if(nums[i]!= nums[i+1])
-            {
-                count++;
-                if(count ==3)
-                return nums[i];
-            }
-        }
-        return nums[n-1];
+        Set<Integer> s = new HashSet<>();
+        for (int n : nums) s.add(n);
+
+        if(s.size()<3)
+        return Collections.max(s);
+
+        s.remove(Collections.max(s));
+        s.remove(Collections.max(s));
+
+        return Collections.max(s);
     }
 }
