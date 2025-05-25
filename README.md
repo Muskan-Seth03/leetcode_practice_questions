@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0617-merge-two-binary-trees](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0617-merge-two-binary-trees) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1008-binary-tree-cameras](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1008-binary-tree-cameras) |
 ## Depth-First Search
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0617-merge-two-binary-trees](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0617-merge-two-binary-trees) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1008-binary-tree-cameras](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1008-binary-tree-cameras) |
 ## Hash Table
@@ -341,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0225-implement-stack-using-queues) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Queue
 |  |
 | ------- |
@@ -363,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -377,4 +381,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0215-kth-largest-element-in-an-array) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0789-kth-largest-element-in-a-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
