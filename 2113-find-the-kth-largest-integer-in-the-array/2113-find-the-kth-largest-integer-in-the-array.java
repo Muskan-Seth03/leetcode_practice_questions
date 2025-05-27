@@ -1,15 +1,22 @@
-class Solution {  // brute force approach (Sorting)  TC:O(n log n)  SC:O(1)
+class Solution {  // better approach (using PQ)  TC:O(n log k)  SC:O(k)
     public String kthLargestNumber(String[] nums, int k) {
         int n= nums.length;
-        //sort in descending order
-        Arrays.sort(nums, (a,b)->
+        PriorityQueue<String> pq= new PriorityQueue<>
+        ((a,b)->
             {
                 if(a.length() != b.length())   // check length
-                return b.length() - a.length();
+                return a.length() - b.length();
                 else                           // equal length, compare lexicographically
-                return b.compareTo(a);
+                return a.compareTo(b);
             }
         );
-        return nums[k-1];
+        for(String num: nums)
+        {
+            pq.offer(num);
+        }
+        while(pq.size() > k)
+        pq.poll();
+
+        return pq.peek();
     }
 }
