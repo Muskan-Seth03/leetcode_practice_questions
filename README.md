@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0414-third-maximum-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0414-third-maximum-number) |
 | [0463-island-perimeter](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0542-01-matrix) |
+| [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0733-flood-fill) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
 ## Tree
 |  |
 | ------- |
@@ -155,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0387-first-unique-character-in-a-string) |
 | [0433-minimum-genetic-mutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0433-minimum-genetic-mutation) |
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
+| [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0692-top-k-frequent-words) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
@@ -266,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0347-top-k-frequent-elements) |
 | [0414-third-maximum-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0414-third-maximum-number) |
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
+| [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0692-top-k-frequent-words) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -333,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
+| [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0692-top-k-frequent-words) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2308-divide-array-into-equal-pairs) |
@@ -382,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
+| [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0692-top-k-frequent-words) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
