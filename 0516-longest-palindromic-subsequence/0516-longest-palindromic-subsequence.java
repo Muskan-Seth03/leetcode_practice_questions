@@ -1,30 +1,33 @@
-// TC: O(n^2) + O(n)   lcs + StringBuilder
-// SC: O(n*n)
-class Solution {  // using dp + lcs approach  
-    public int longestCommonSubsequence(String s, String rev) {
-        int n= s.length();
-        // Create a 2D DP array
-        int[][] dp = new int[n + 1][n + 1];
-
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n; j++) {
-                // If characters match, take left diagonal + 1
-                if (s.charAt(i - 1) == rev.charAt(j - 1)) {
-                    dp[i][j] = 1 + dp[i - 1][j - 1];
-                } else {
-                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
-                }
-            }
+class Solution {   // Optimised approach   TC:O(2*m)  SC:O(min(n,m))
+    public int longestPalindromeSubseq(String s) {
+        String text1= s;
+        String text2= new StringBuilder(s).reverse().toString();
+        if(text1.length() < text2.length())
+        {
+            String temp= text1;
+            text1= text2;
+            text2= temp;
         }
-        return dp[n][n];
-    }
+        int n= text1.length();
+        int m= text2.length();
 
-    public int longestPalindromeSubseq(String s){
-        int n = s.length();
+        int dp[]= new int[m+1];  // rows of m columns
+        int prevDp[]= new int[m+1];
 
-        // use StringBuilder method to reverse the given string s
-        String rev= new StringBuilder(s).reverse().toString();   // O(n)
+        //base case
+        prevDp[m]=0;
 
-        return longestCommonSubsequence(s, rev);
+        for(int i=n-1; i>=0; i--)
+        {
+            for(int j= m-1; j>=0; j--)
+            {
+                if(text1.charAt(i) == text2.charAt(j))   // if match found
+                dp[j] = 1 + prevDp[j + 1];
+                else
+                dp[j] = 0 + Math.max(prevDp[j], dp[j + 1]);       
+            }
+            prevDp= dp.clone();
+        }
+        return prevDp[0];
     }
 }
