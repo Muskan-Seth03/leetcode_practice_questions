@@ -1,5 +1,11 @@
-class Solution {  // Optimised approach   TC:O(2*m)  SC:O(m)
+class Solution {  // Optimised approach   TC:O(2*m)  SC:O(min(n,m))
     public int longestCommonSubsequence(String text1, String text2) {
+        if(text1.length() < text2.length())
+        {
+            String temp= text1;
+            text1= text2;
+            text2= temp;
+        }
         int n= text1.length();
         int m= text2.length();
 
