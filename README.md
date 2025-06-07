@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0198-house-robber) |
 | [0516-longest-palindromic-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0516-longest-palindromic-subsequence) |
 | [0542-01-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0542-01-matrix) |
+| [0583-delete-operation-for-two-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0647-palindromic-substrings) |
 | [0747-min-cost-climbing-stairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0747-min-cost-climbing-stairs) |
 | [1008-binary-tree-cameras](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1008-binary-tree-cameras) |
@@ -312,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0433-minimum-genetic-mutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0433-minimum-genetic-mutation) |
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0516-longest-palindromic-subsequence) |
+| [0583-delete-operation-for-two-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0647-palindromic-substrings) |
 | [0657-robot-return-to-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0657-robot-return-to-origin) |
 | [0692-top-k-frequent-words](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0692-top-k-frequent-words) |
