@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0005-longest-palindromic-substring) |
 | [0031-next-permutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0031-next-permutation) |
 | [0647-palindromic-substrings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0647-palindromic-substrings) |
+| [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Simulation
 |  |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
+| [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 ## Tree
 |  |
 | ------- |
@@ -322,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1250-longest-common-subsequence) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1542-consecutive-characters](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1542-consecutive-characters) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
@@ -424,4 +427,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0789-kth-largest-element-in-a-stream) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 <!---LeetCode Topics End-->
