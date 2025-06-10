@@ -1,4 +1,4 @@
-class Solution {  // space optimised approach  TC:O(n*m)   SC:O(n*m)
+class Solution {  // space optimised approach  TC:O(n*m)   SC:O(m)
     public int numDistinct(String s, String t) {
         int n= s.length();
         int m= t.length();
