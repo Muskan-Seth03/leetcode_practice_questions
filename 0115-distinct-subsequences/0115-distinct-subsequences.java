@@ -1,28 +1,26 @@
-class Solution {  // tabulation approach TC:O(n*m)   SC:O(n*m)
+class Solution {  // space optimised approach  TC:O(n*m)   SC:O(n*m)
     public int numDistinct(String s, String t) {
         int n= s.length();
         int m= t.length();
-        int dp[][]= new int [n+1][m+1];
-        for(int row[]: dp)
-        Arrays.fill(row, 0);
-
+        int prev[]= new int [m+1];
+        int curr[]= new int [m+1];
         //base case
-        for(int i=0; i<=n; i++) dp[i][0]=1;
-        for(int j=1; j<=m; j++) dp[0][j]=0;
-
-
+        prev[0]= 1;
+   
         for(int i=1; i<=n; i++)
         {
+            curr[0]=1;
             for(int j=1; j<=m; j++)
             {
                 if(s.charAt(i-1) == t.charAt(j-1))
                 {
-                    dp[i][j]= dp[i-1][j-1] + dp[i-1][j]; 
+                    curr[j]= prev[j-1] + prev[j]; 
                 }
                 else
-                dp[i][j]= dp[i-1][j]; 
+                curr[j]= prev[j]; 
             }
+            prev= curr.clone();
         }
-        return dp[n][m];
+        return prev[m];
     }
 }
