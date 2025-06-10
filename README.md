@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0070-climbing-stairs) |
+| [0115-distinct-subsequences](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0198-house-robber](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0198-house-robber) |
@@ -308,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0014-longest-common-prefix) |
 | [0049-group-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0049-group-anagrams) |
+| [0115-distinct-subsequences](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0127-word-ladder) |
 | [0205-isomorphic-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0242-valid-anagram) |
