@@ -1,14 +1,12 @@
-class Solution {  // tabulation approach  TC: O(n*m)  SC: O(n*m)
+class Solution {  // space optimisation approach  TC: O(n*m)  SC: O(m)
     public boolean isMatch(String s, String p) {
         int n= s.length();
         int m= p.length();
-        int [][] dp= new int [n+1][m+1]; 
+        int []prev= new int [m+1]; 
+        int []curr= new int [m+1]; 
 
         //base case
-        dp[0][0]= 1;
-
-        for(int i=1; i<=n; i++)
-        dp[i][0]= 0;
+        prev[0]= 1;
 
         for(int j=1; j<=m; j++)
         {
@@ -21,21 +19,24 @@ class Solution {  // tabulation approach  TC: O(n*m)  SC: O(n*m)
                     break;
                 }
             }
-            dp[0][j]= flag;   
+            prev[j]= flag;   
         }
+
         for(int i=1; i<=n; i++)
         {
+            curr[0]= 0;
             for(int j=1; j<=m; j++)
             {
                 if(p.charAt(j-1) == s.charAt(i-1) || p.charAt(j-1) =='?')
-                dp[i][j]= dp[i-1][j-1];
+                curr[j]= prev[j-1];
                 else if(p.charAt(j-1) =='*')
-                dp[i][j]= (dp[i-1][j] ==1 || dp[i][j-1] ==1) ? 1 : 0;
+                curr[j]= (prev[j] ==1 || curr[j-1] ==1) ? 1 : 0;
                 else
-                dp[i][j]=0;
+                curr[j]=0;
             }
+            prev= curr.clone();
         }
-        if(dp[n][m] > 0)
+        if(prev[m] > 0)
         return true;
         else
         return false;
