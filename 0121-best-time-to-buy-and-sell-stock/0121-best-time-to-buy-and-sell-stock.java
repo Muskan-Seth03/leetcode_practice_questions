@@ -1,19 +1,13 @@
 class Solution {
     public int maxProfit(int[] prices) {
-        int n = prices.length;
-        int max_profit = 0;
+        int min_price=prices[0];
         int profit=0;
-        int mini= Integer.MAX_VALUE;
-
-        for (int i = 0; i < n; i++)
+        for(int  i=1; i< prices.length; i++)
         {
-            profit = prices[i]-mini;
-            //first check profit  then update min buying rate
-            max_profit= Math.max( max_profit, profit);
-            
-            mini= Math.min(mini, prices[i]);
+            int diff = prices[i] - min_price;
+            profit = Math.max(profit, diff);
+            min_price = Math.min(min_price, prices[i]); 
         }
-        return max_profit;
-            
+        return profit;
     }
 }
