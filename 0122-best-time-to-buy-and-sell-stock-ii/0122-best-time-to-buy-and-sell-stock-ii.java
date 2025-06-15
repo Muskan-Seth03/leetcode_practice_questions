@@ -1,24 +1,27 @@
-class Solution {   // tabulation approach  TC:O(n*2)  SC:O(n*2) 
+class Solution {   // space optimised approach  TC:O(n*2)  SC:O(1) 
     public int maxProfit(int[] prices) {
         int n= prices.length;
-        int dp[][]= new int [n+1][2];
+        int ahead[]= new int [2];
+        int curr[]= new int [2];
+
         //base case 
-        dp[n][0]=dp[n][1]=0;
+        ahead[0]=ahead[1]=0;
        
         int profit=0;
          for (int ind = n - 1; ind >= 0; ind--) {
             for (int buy = 0; buy <= 1; buy++) {
                 if (buy == 0) { // We can buy the stock
-                    profit = Math.max(0 + dp[ind + 1][0], -prices[ind] + dp[ind + 1][1]);
+                    profit = Math.max(0 + ahead[0], -prices[ind] + ahead[1]);
                 }
 
                 if (buy == 1) { // We can sell the stock
-                    profit = Math.max(0 + dp[ind + 1][1], prices[ind] + dp[ind + 1][0]);
+                    profit = Math.max(0 + ahead[1], prices[ind] + ahead[0]);
                 }
 
-                dp[ind][buy] = profit;
+                curr[buy] = profit;
             }
+            ahead= curr.clone();
         }
-        return dp[0][0];
+        return curr[0];
     }
 }
