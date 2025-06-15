@@ -1,30 +1,24 @@
-class Solution {   // memoization approach  TC:O(n*2)  SC:O(n*2) + O(n) 
-    public static int f(int ind, int buy, int[]prices, int[][]dp)
-    {
-        int n= prices.length;
-        //base case
-        if(ind == n)
-        return 0;
-
-        if(dp[ind][buy]!= -1)
-        return dp[ind][buy];
-
-        int profit=0;
-        if(buy==1)  //allowed to buy 
-            profit= Math.max(-prices[ind] + f(ind+1, 0, prices, dp), 0 + f(ind+1, 1, prices, dp)); 
-        
-        else
-            profit= Math.max(prices[ind] + f(ind+1, 1, prices, dp), 0 + f(ind+1, 0, prices, dp));
-        return dp[ind][buy]= profit;
-    }
-
+class Solution {   // tabulation approach  TC:O(n*2)  SC:O(n*2) 
     public int maxProfit(int[] prices) {
         int n= prices.length;
-        int dp[][]= new int [n][2];
+        int dp[][]= new int [n+1][2];
+        //base case 
+        dp[n][0]=dp[n][1]=0;
+       
+        int profit=0;
+         for (int ind = n - 1; ind >= 0; ind--) {
+            for (int buy = 0; buy <= 1; buy++) {
+                if (buy == 0) { // We can buy the stock
+                    profit = Math.max(0 + dp[ind + 1][0], -prices[ind] + dp[ind + 1][1]);
+                }
 
-        for(int [] row: dp)
-        Arrays.fill(row, -1);
+                if (buy == 1) { // We can sell the stock
+                    profit = Math.max(0 + dp[ind + 1][1], prices[ind] + dp[ind + 1][0]);
+                }
 
-        return f(0, 1, prices, dp);
+                dp[ind][buy] = profit;
+            }
+        }
+        return dp[0][0];
     }
 }
