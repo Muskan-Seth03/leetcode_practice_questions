@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0455-assign-cookies) |
 | [0463-island-perimeter](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0463-island-perimeter) |
+| [0494-target-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0542-01-matrix) |
 | [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0542-01-matrix) |
@@ -118,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0046-permutations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0046-permutations) |
+| [0494-target-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0494-target-sum) |
 | [0813-all-paths-from-source-to-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0813-all-paths-from-source-to-target) |
 ## Greedy
 |  |
