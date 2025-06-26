@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0300-longest-increasing-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0347-top-k-frequent-elements) |
 | [0414-third-maximum-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0414-third-maximum-number) |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0198-house-robber](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0198-house-robber) |
+| [0300-longest-increasing-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0494-target-sum) |
@@ -252,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0035-search-insert-position](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0035-search-insert-position) |
 | [0278-first-bad-version](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0278-first-bad-version) |
+| [0300-longest-increasing-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0300-longest-increasing-subsequence) |
 | [0374-guess-number-higher-or-lower](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0374-guess-number-higher-or-lower) |
 | [0792-binary-search](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0792-binary-search) |
 ## Interactive
