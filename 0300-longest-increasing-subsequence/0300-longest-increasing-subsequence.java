@@ -1,4 +1,4 @@
-class Solution {   // recursive approach 
+class Solution {   // memoization approach 
     public static int f(int ind, int prev_index, int n, int[]nums, int[][]dp)
     {
         // base case
@@ -7,7 +7,7 @@ class Solution {   // recursive approach
 
         if(dp[ind][prev_index+1]!=-1)
         return dp[ind][prev_index + 1];
-        
+
         int not_take= 0 + f(ind + 1, prev_index, n, nums,dp);
         int take= 0;
         if(prev_index==-1 || nums[ind]> nums[prev_index])
