@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0128-longest-consecutive-sequence) |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0046-permutations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0046-permutations) |
+| [0079-word-search](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0079-word-search) |
 | [0494-target-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0494-target-sum) |
 | [0813-all-paths-from-source-to-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0813-all-paths-from-source-to-target) |
 ## Greedy
@@ -143,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0207-course-schedule) |
@@ -215,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0463-island-perimeter) |
@@ -333,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0072-edit-distance) |
+| [0079-word-search](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0127-word-ladder) |
 | [0205-isomorphic-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0205-isomorphic-strings) |
