@@ -1,4 +1,4 @@
-class Solution {  //brute force approach 
+class Solution {  //brute force approach TC:O((m*n*4)^k)  SC:O(k)
     public static boolean dfs(int ind, int i, int j, int row, int col, char[][]board, String word)
     {
         //base case
