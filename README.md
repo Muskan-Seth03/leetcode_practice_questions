@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0031-next-permutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0031-next-permutation) |
 | [0035-search-insert-position](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0035-search-insert-position) |
+| [0039-combination-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0048-rotate-image) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0077-combinations) |
