@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0040-combination-sum-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0046-permutations) |
+| [0077-combinations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0077-combinations) |
 | [0079-word-search](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0079-word-search) |
 | [0494-target-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0494-target-sum) |
 | [0813-all-paths-from-source-to-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0813-all-paths-from-source-to-target) |
