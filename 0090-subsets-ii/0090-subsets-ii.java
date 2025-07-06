@@ -12,6 +12,7 @@ class Solution {  // brute force
         }
     }
     public List<List<Integer>> subsetsWithDup(int[] nums) {
+        Arrays.sort(nums);
         List<List<Integer>> ans= new ArrayList<>();
         List<Integer> ds= new ArrayList<>();
         f(0, nums, ds, ans);
