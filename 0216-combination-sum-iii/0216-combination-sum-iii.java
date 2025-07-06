@@ -1,4 +1,9 @@
-class Solution {   // brute force
+// brute force
+//Each valid combination is of size k
+//copy ds using new ArrayList<>(ds) → takes O(k) time
+// TC:O(9ck * k)
+// SC:O(9ck * k)   ==> O(k) recursive stack space  + O(k) for ds + O(9ck * k) for ans
+class Solution {
     public static void f(int start, int tar, int k, List<Integer>ds, List<List<Integer>> ans){
         //base case
         if(k==0)
