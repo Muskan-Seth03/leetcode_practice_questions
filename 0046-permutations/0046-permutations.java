@@ -1,42 +1,37 @@
-class Solution {  //better approach
-
-    public void f(int ind, int [] nums, List<List<Integer>> result)
+// brute force
+// TC: O(n! * n)    ==> O(n!) for permutations + O(n) for putting ds into ans
+// SC: O(n! * n)    ==> O(n! *n) + O(n) recursive stack space + O(n) for map + O(n) for ds
+class Solution { 
+    public static void f(int[] nums, boolean map[], List<Integer> ds, List<List<Integer>> ans)
     {
         //base case
-        List<Integer> ds = new ArrayList<>();
-        if(ind== nums.length)
+        if(ds.size()==nums.length)
         {
-            for(int i=0; i<nums.length; i++)
+            ans.add(new ArrayList<>(ds));
+            return;
+        }
+        // pick only if position in map is not marked
+        for(int i= 0; i< map.length; i++)
+        {
+            if(!map[i])
             {
+                map[i]= true;
                 ds.add(nums[i]);
+
+                f(nums, map, ds, ans);
+                
+                map[i]= false;
+                ds.remove(ds.size()-1);
             }
-        result.add(new ArrayList<>(ds));
-        return;
-        }
-
-        for(int i=ind; i<nums.length; i++)
-        {
-            swap(ind, i, nums);
-            f(ind+1, nums, result);
-            swap(ind, i, nums);
-
         }
     }
-
-    public void swap(int i, int j, int nums[])
-    {
-        int t= nums[i];
-        nums[i]= nums[j];
-        nums[j]= t;
-    }
-
     public List<List<Integer>> permute(int[] nums) {
-        List<List<Integer>> result= new ArrayList<>();
+        int n= nums.length;
+        List<List<Integer>> ans= new ArrayList<>();
+        List<Integer> ds= new ArrayList<>();
+        boolean [] map= new boolean[nums.length];
 
-        f(0, nums, result);
-
-        return result;
-
-        
+        f(nums, map, ds, ans);
+        return ans;
     }
 }
