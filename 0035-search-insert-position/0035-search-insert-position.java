@@ -1,4 +1,4 @@
-class Solution {
+class Solution {   // lower bound using binary search
     public int searchInsert(int[] nums, int target) {
         int n = nums.length;
         int ans=0;
