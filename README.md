@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2271-rearrange-array-elements-by-sign](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2312-most-frequent-number-following-key-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2312-most-frequent-number-following-key-in-an-array) |
+| [2316-count-hills-and-valleys-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2378-sender-with-largest-word-count](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2378-sender-with-largest-word-count) |
 | [2421-maximum-number-of-pairs-in-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2421-maximum-number-of-pairs-in-array) |
 | [2483-task-scheduler-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2483-task-scheduler-ii) |
