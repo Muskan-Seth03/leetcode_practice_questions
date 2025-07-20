@@ -1,32 +1,36 @@
-class Solution {// brute force
+class Solution { // binary search   TC:O(log n)  SC:O(1)
     public int findPeakElement(int[] nums) {
         int n= nums.length;
-
-        for( int i=0; i < n; i++)
+        // edge case
+        if(n==1)
+        return 0;
+        if(nums[0]> nums[1])
         {
-            // edge case
-            if(n==1)
             return 0;
-            if(i==0)
+        }
+        if(nums[n-1] > nums[n-2])
+        {
+            return n-1;
+        }
+        
+        int low=1;
+        int high= n-2;
+        while(low <= high)
+        {
+            int mid= low + (high - low)/2;
+            // check if arr[mid] is the peak element 
+            if(nums[mid]> nums[mid-1] && nums[mid] > nums[mid+1])
             {
-                if(nums[i]> nums[i+1])
-                {
-                    return 0;
-                }
+                return mid;
             }
-            else if(i == n-1)
+            // else check arr[mid] is lesser than left el or right el 
+            if( nums[mid] > nums[mid-1])
             {
-                if(nums[i] > nums[i-1])
-                {
-                    return n-1;
-                }
+                // eliminate left half
+                low= mid+1;
             }
-
-            else if(nums[i]> nums[i-1] && nums[i] > nums[i+1])
-            {
-                return i;
-            }
-
+            else
+            high = mid-1;
         }
         return -1;
     }
