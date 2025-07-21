@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0733-flood-fill) |
 | [0747-min-cost-climbing-stairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0792-binary-search) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1036-rotting-oranges](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1073-number-of-enclaves) |
 | [1104-coloring-a-border](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1104-coloring-a-border) |
@@ -290,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0374-guess-number-higher-or-lower](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0374-guess-number-higher-or-lower) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0792-binary-search) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0882-peak-index-in-a-mountain-array) |
 ## Interactive
 |  |
 | ------- |
