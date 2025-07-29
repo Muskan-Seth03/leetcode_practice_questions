@@ -274,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0044-wildcard-matching) |
+| [0203-remove-linked-list-elements](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0203-remove-linked-list-elements) |
 | [1013-fibonacci-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1013-fibonacci-number) |
 ## Memoization
 |  |
@@ -514,4 +515,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2877-shortest-string-that-contains-three-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2877-shortest-string-that-contains-three-strings) |
 | [3221-find-the-peaks](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3221-find-the-peaks) |
+## Linked List
+|  |
+| ------- |
+| [0203-remove-linked-list-elements](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0203-remove-linked-list-elements) |
 <!---LeetCode Topics End-->
