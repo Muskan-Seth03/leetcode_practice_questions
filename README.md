@@ -523,4 +523,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0203-remove-linked-list-elements](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0203-remove-linked-list-elements) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
