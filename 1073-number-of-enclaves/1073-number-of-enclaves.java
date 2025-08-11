@@ -1,12 +1,10 @@
-// TC:O(m)+ O(n)+ O(m*n*4)   in worst case m*n dfs calls checking in 4 directions  
-// SC:O(m*n) for visi array and auxillary stack space 
-
 class Solution {
     public static void dfs(int  row, int col, int[][]grid, int[][]visi, int dr[], int dc[])
     {
         int m= grid.length;
         int n= grid[0].length;
         visi[row][col]=1;
+        grid[row][col]= 0;
        
         for(int k=0; k<4; k++)
         {
@@ -58,19 +56,18 @@ class Solution {
                 dfs(m-1, j, grid, visi, dr, dc);
             }
         }
-
+        
         int enclaves=0;
-        for(int i=0; i<m; i++)
-        {
-            for(int j=0; j<n; j++)
+            for(int i=0; i<m; i++)
             {
-                if(grid[i][j]==1 && visi[i][j]==0)
+                for(int j=0; j<n; j++)
                 {
-                    enclaves++;
+                    if(grid[i][j]==1)
+                    {
+                        enclaves++;
+                    }
                 }
             }
+            return enclaves;
         }
-        return enclaves;
-    }
 }
-
