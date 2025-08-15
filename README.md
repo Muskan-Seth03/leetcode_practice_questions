@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0031-next-permutation) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0005-longest-palindromic-substring) |
+| [0011-container-with-most-water](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0031-next-permutation) |
@@ -165,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0011-container-with-most-water) |
 | [0044-wildcard-matching](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0455-assign-cookies](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0455-assign-cookies) |
