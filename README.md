@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0049-group-anagrams) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0070-climbing-stairs) |
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0042-trapping-rain-water) |
 | [0455-assign-cookies](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0455-assign-cookies) |
 | [0647-palindromic-substrings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0647-palindromic-substrings) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
@@ -449,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0042-trapping-rain-water) |
 | [0225-implement-stack-using-queues](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0225-implement-stack-using-queues) |
 | [0496-next-greater-element-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0503-next-greater-element-ii) |
@@ -551,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
