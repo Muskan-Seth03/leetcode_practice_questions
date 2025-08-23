@@ -204,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0733-flood-fill) |
 | [0813-all-paths-from-source-to-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0820-find-eventual-safe-states) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1008-binary-tree-cameras](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1008-binary-tree-cameras) |
 | [1073-number-of-enclaves](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1073-number-of-enclaves) |
 | [1104-coloring-a-border](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1104-coloring-a-border) |
@@ -237,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0496-next-greater-element-i) |
 | [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0692-top-k-frequent-words) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -259,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0695-max-area-of-island) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1073-number-of-enclaves](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1073-number-of-enclaves) |
 | [2035-count-sub-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2035-count-sub-islands) |
 ## Matrix
@@ -383,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0547-number-of-provinces) |
 | [0813-all-paths-from-source-to-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0820-find-eventual-safe-states) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2206-detonate-the-maximum-bombs) |
 ## Topological Sort
