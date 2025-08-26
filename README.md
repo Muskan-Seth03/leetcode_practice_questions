@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0733-flood-fill) |
+| [0735-asteroid-collision](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0735-asteroid-collision) |
 | [0747-min-cost-climbing-stairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0054-spiral-matrix) |
 | [0657-robot-return-to-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0657-robot-return-to-origin) |
+| [0735-asteroid-collision](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0735-asteroid-collision) |
 | [2239-execution-of-all-suffix-instructions-staying-in-a-grid](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2239-execution-of-all-suffix-instructions-staying-in-a-grid) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2483-task-scheduler-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2483-task-scheduler-ii) |
@@ -473,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0225-implement-stack-using-queues) |
 | [0496-next-greater-element-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0503-next-greater-element-ii) |
+| [0735-asteroid-collision](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0735-asteroid-collision) |
 | [1078-remove-outermost-parentheses](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 ## Design
