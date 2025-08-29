@@ -13,32 +13,42 @@
  *     }
  * }
  */
+import java.util.*;
+
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
-        List<Integer> postorder= new ArrayList<>();
-        if(root == null)
-        return postorder;
+        List<Integer> res = new ArrayList<>();
+        if (root == null) return res;
 
-        Stack<TreeNode> s1= new Stack<>();
-        Stack<TreeNode> s2= new Stack<>();
+        Stack<Pair> stack = new Stack<>();
+        stack.push(new Pair(root, false));
 
-        s1.push(root);
-        while(!s1.isEmpty())
-        {
-            TreeNode poppedNode= s1.pop();
+        while (!stack.isEmpty()) {
+            Pair curr = stack.pop();
+            TreeNode node = curr.node;
+            boolean visited = curr.visited;
 
-            if(poppedNode.left != null)
-            s1.push(poppedNode.left);
-            
-            if(poppedNode.right!= null)
-            s1.push(poppedNode.right);
-
-            s2.push(poppedNode);
+            if (node != null) {
+                if (visited) {
+                    res.add(node.val); // process node
+                } else {
+                    // Postorder: Left → Right → Node
+                    stack.push(new Pair(node, true));    // mark node for processing
+                    stack.push(new Pair(node.right, false)); // push right child
+                    stack.push(new Pair(node.left, false));  // push left child
+                }
+            }
         }
-        while(s1.isEmpty() && !s2.isEmpty())
-        {
-            postorder.add(s2.pop().val);
-        }
-        return postorder;        
+        return res;
+    }
+}
+
+// helper class to store (node, visited)
+class Pair {
+    TreeNode node;
+    boolean visited;
+    Pair(TreeNode node, boolean visited) {
+        this.node = node;
+        this.visited = visited;
     }
 }
