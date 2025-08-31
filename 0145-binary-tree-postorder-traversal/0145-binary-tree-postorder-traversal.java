@@ -13,42 +13,61 @@
  *     }
  * }
  */
+
+//  Preorder, inorder, postorder traversal in one traversal.
 import java.util.*;
 
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
-        List<Integer> res = new ArrayList<>();
-        if (root == null) return res;
+        List<Integer> preorder = new ArrayList<>();
+        List<Integer> inorder = new ArrayList<>();
+        List<Integer> postorder = new ArrayList<>();
+
+        if (root == null) return postorder;
 
         Stack<Pair> stack = new Stack<>();
-        stack.push(new Pair(root, false));
+        stack.push(new Pair(root, 1));
 
         while (!stack.isEmpty()) {
-            Pair curr = stack.pop();
-            TreeNode node = curr.node;
-            boolean visited = curr.visited;
+            Pair it = stack.pop();
 
-            if (node != null) {
-                if (visited) {
-                    res.add(node.val); // process node
-                } else {
-                    // Postorder: Left → Right → Node
-                    stack.push(new Pair(node, true));    // mark node for processing
-                    stack.push(new Pair(node.right, false)); // push right child
-                    stack.push(new Pair(node.left, false));  // push left child
+            if(it.num == 1)
+            {
+                preorder.add(it.node.val);
+                it.num++;
+                stack.push(it);
+
+                if(it.node.left!=null)
+                {
+                    stack.push(new Pair(it.node.left, 1));
                 }
             }
+            else if(it.num == 2)
+            {
+                inorder.add(it.node.val);
+                it.num++;
+                stack.push(it);
+
+                if(it.node.right!=null)
+                {
+                    stack.push(new Pair(it.node.right, 1));
+                }
+            }
+            else
+            {
+                postorder.add(it.node.val);
+            }
         }
-        return res;
+        return postorder;
     }
 }
 
 // helper class to store (node, visited)
 class Pair {
     TreeNode node;
-    boolean visited;
-    Pair(TreeNode node, boolean visited) {
+    int num;
+    Pair(TreeNode node, int num) {
         this.node = node;
-        this.visited = visited;
+        this.num = num;
     }
 }
