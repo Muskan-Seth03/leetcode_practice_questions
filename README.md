@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0042-trapping-rain-water) |
+| [0151-reverse-words-in-a-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0151-reverse-words-in-a-string) |
 | [0455-assign-cookies](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0455-assign-cookies) |
 | [0647-palindromic-substrings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0647-palindromic-substrings) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
@@ -458,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0127-word-ladder) |
+| [0151-reverse-words-in-a-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0290-word-pattern) |
