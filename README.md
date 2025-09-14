@@ -203,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0543-diameter-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0617-merge-two-binary-trees) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1008-binary-tree-cameras](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1008-binary-tree-cameras) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -231,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0733-flood-fill) |
 | [0813-all-paths-from-source-to-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0820-find-eventual-safe-states) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1008-binary-tree-cameras](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1008-binary-tree-cameras) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -255,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0543-diameter-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0617-merge-two-binary-trees) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1008-binary-tree-cameras](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1008-binary-tree-cameras) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -279,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0496-next-greater-element-i) |
 | [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0692-top-k-frequent-words) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1264-maximum-number-of-words-you-can-type) |
@@ -398,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0733-flood-fill) |
 | [0813-all-paths-from-source-to-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0820-find-eventual-safe-states) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1036-rotting-oranges) |
