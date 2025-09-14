@@ -200,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0222-count-complete-tree-nodes) |
 | [0543-diameter-of-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0543-diameter-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0617-merge-two-binary-trees) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -256,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0222-count-complete-tree-nodes) |
 | [0543-diameter-of-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0543-diameter-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0617-merge-two-binary-trees) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -366,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0162-find-peak-element) |
+| [0222-count-complete-tree-nodes](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0222-count-complete-tree-nodes) |
 | [0278-first-bad-version](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0278-first-bad-version) |
 | [0300-longest-increasing-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0300-longest-increasing-subsequence) |
 | [0374-guess-number-higher-or-lower](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0374-guess-number-higher-or-lower) |
@@ -584,6 +587,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0090-subsets-ii) |
+| [0222-count-complete-tree-nodes](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0222-count-complete-tree-nodes) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2427-first-letter-to-appear-twice](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2427-first-letter-to-appear-twice) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2594-count-pairs-of-similar-strings) |
