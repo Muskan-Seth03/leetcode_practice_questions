@@ -226,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0310-minimum-height-trees) |
 | [0463-island-perimeter](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0463-island-perimeter) |
 | [0543-diameter-of-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0547-number-of-provinces) |
@@ -399,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0322-coin-change) |
 | [0433-minimum-genetic-mutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0433-minimum-genetic-mutation) |
 | [0463-island-perimeter](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0463-island-perimeter) |
@@ -446,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0310-minimum-height-trees) |
 | [0547-number-of-provinces](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0547-number-of-provinces) |
 | [0813-all-paths-from-source-to-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0820-find-eventual-safe-states) |
@@ -457,6 +460,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0310-minimum-height-trees) |
 | [0820-find-eventual-safe-states](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0820-find-eventual-safe-states) |
 ## String
 |  |
