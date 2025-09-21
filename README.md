@@ -203,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0222-count-complete-tree-nodes) |
 | [0543-diameter-of-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0543-diameter-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0617-merge-two-binary-trees) |
+| [0783-search-in-a-binary-search-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -261,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0222-count-complete-tree-nodes) |
 | [0543-diameter-of-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0543-diameter-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0617-merge-two-binary-trees) |
+| [0783-search-in-a-binary-search-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -607,6 +609,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Data Stream
 |  |
