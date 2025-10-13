@@ -1,59 +1,79 @@
-class Solution {   // // Kahn's algorithm to detect cycle in Directed graph using BFS (Queue)
+// using dfs
+// using dfs
+// TC: O(V+E)  SC: O(V+E)
+class Solution {
+    private boolean hasCycle;
+    private Stack<Integer> s;
+
+    private void isDFSCycle(int node, List<List<Integer>> adjList, int[]visi, int[]inRecursion)
+    {
+        visi[node]=1;  // visit node
+        inRecursion[node]= 1;
+        
+        for(int adjNode : adjList.get(node))
+        {
+            if(inRecursion[adjNode]==1)
+            {
+                hasCycle= true;
+                return;
+            }
+            // if not visited
+            if(visi[adjNode]==0)
+            {
+                isDFSCycle(adjNode, adjList, visi, inRecursion);
+                if(hasCycle)
+                return;
+            }
+        }
+              
+        
+        inRecursion[node]= 0;
+        s.push(node);   
+             
+    }
+
+    
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        int N= numCourses;
-        int P= prerequisites.length;
-        ArrayList<ArrayList<Integer>> adj= new ArrayList<>();
-        for(int i=0; i<N; i++)
+        List<List<Integer>> adjList= new ArrayList<>();
+        
+        for(int i=0; i< numCourses; i++)
         {
-            adj.add(new ArrayList<>());
+            adjList.add(new ArrayList<>());
         }
         
-        for(int i=0; i<P; i++)
+        for(int []prerequisite : prerequisites)
         {
-            adj.get(prerequisites[i][1]).add(prerequisites[i][0]);
-        }
-        // indegree array
-        
-        int indegree[]= new int [N];
-        for(int i=0; i<N; i++)
-        {
-            for(int it: adj.get(i))
-            {
-                indegree[it]++;
-            }
-        }
-        Queue<Integer> q= new LinkedList<>();
-        
-        for(int i=0; i<N; i++)
-        {
-            if(indegree[i]==0)
-            {
-                q.offer(i);
-            }
-        }
-        
-        int i=0;
-        int topo[]= new int[N];
-        while(!q.isEmpty())
-        {
-            int node= q.remove();
-            topo[i]= node;
-            i++;
+            int u=  prerequisite[0];
+            int v=  prerequisite[1];
             
-            for(int it: adj.get(node))
-            {
-                indegree[it]--;
-                if(indegree[it]==0)
-                q.offer(it);
-            }
+            adjList.get(v).add(u);
         }
         
-        if(i==N)
-        return topo;
-        
-        else
-        return new int [0];
-        
+        // apply dfs
+        int visi[]= new int[numCourses];
+        int []inRecursion= new int[numCourses];
+
+        s= new Stack<>();
+
+        for(int i=0; i< numCourses; i++)
+        {
+            if(visi[i]==0)
+            {
+                isDFSCycle(i, adjList, visi, inRecursion);
+            }
+        }
+
+        if(hasCycle== true)
+        return new int[0];      
+
+        int[]res= new int[numCourses];
+        int ind=0;
+        while(!s.isEmpty())
+        {
+            res[ind++]= s.pop();
+        }
+        return res;
     }
 }
+
     
