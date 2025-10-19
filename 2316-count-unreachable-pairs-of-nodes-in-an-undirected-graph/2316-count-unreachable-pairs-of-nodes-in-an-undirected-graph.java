@@ -1,53 +1,65 @@
-// TC: O(V + E)  SC: O(V + E)  
 class Solution {
-    private long dfs(int node, List<List<Integer>> adjList, int[]visi, long size)
-    {
-        visi[node]= 1;
-        size=1;
-
-        for( int adjNode : adjList.get(node))
+    public int find(int i, int parent[]){
+        if(parent[i] == i)
+        return i;
+        
+        return parent[i] = find(parent[i], parent);
+    }
+    public void union(int u, int v, int []parent, int[] rank){
+       
+        int u_par= find(u, parent);
+        int v_par= find(v, parent);
+        
+        if(u_par == v_par)
+        return ;
+        
+        if(rank[u_par] >  rank[v_par])
         {
-            if(visi[adjNode] == 0)
-            {
-                size += dfs(adjNode, adjList, visi, size);
-            }
+            parent[v_par]= u_par;
         }
-        return size;
-
+        else if (rank[v_par] > rank[u_par])
+        {
+            parent[u_par]= v_par;
+        }
+        else
+        {
+            parent[u_par]= v_par;
+            rank[v_par] += 1;
+        }
     }
     public long countPairs(int n, int[][] edges) {
+        int parent[] = new int[n];
+        int rank[]= new int[n];
         
-        List<List<Integer>> adjList= new ArrayList<>();
         for(int i=0; i<n; i++)
         {
-            adjList.add(new ArrayList<>());
+            parent[i]= i;
         }
-        for(int[] edge: edges)
+
+        for(int edge[]: edges)
         {
             int u= edge[0];
             int v= edge[1];
-            adjList.get(u).add(v);
-            adjList.get(v).add(u);
+
+            union(u, v, parent, rank);
         }
-        int[] visi= new int[n];
-        long res=0;
-        long leftNode = n;
-        
+        // create map  key==> parent[i] --> count of component attached to it
+
+        Map<Integer, Integer> map= new HashMap<>(); 
         for(int i=0; i<n; i++)
         {
-           
-            if(visi[i] == 0)
-            {
-                long size=0;
-                size= dfs(i, adjList, visi, size);
-
-                res += size * (leftNode - size);
-
-                leftNode -= size;
-            }
+            map.put(find(i, parent), map.getOrDefault(find(i, parent), 0) + 1);
         }
-        return res;
 
-                
+        long res = 0;
+        long remaining = n;
+
+        // Count unreachable pairs between components
+        for (int size : map.values()) {
+            res += (long) size * (remaining - size);
+            remaining -= size;
+        }
+
+        return res;
     }
 }
