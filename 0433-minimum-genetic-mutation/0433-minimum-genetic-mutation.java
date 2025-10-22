@@ -1,59 +1,53 @@
-class Pair{     // using bfs approach
-String first; 
-int second;
-    Pair(String first, int second)
-    {
-        this.first= first;
-        this.second= second;
-    }
-}
 class Solution {
     public int minMutation(String startGene, String endGene, String[] bank) {
-     
-        Queue <Pair> q = new LinkedList<>();
-        q.offer(new Pair(startGene, 0));
-        
-        Set<String> set= new HashSet<>();
-        for(String s: bank)
+        Set<String> bankSet= new HashSet<>();
+        for(String validString : bank)
         {
-            set.add(s);
+            bankSet.add(validString);
         }
-        // we have to remove the startWord if present in wordList 
-        //otherwise startWord will be counted twice in the sequence.
-        char choices[]= {'A','C','G','T'};
+        if(!bankSet.contains(endGene))
+        return -1;
 
+        Queue<String> q= new LinkedList<>();
+        q.offer(startGene);
+
+        Set<String> visi= new HashSet<>();
+        visi.add(startGene);
+
+        int level= 0;
         while(!q.isEmpty())
         {
-            Pair it= q.poll();
-            String word= it.first;
-            int level= it.second;
-            
-            if(word.equals(endGene)==true) return level;
-            
-            char replacedArray[]= word.toCharArray();
-            for( int i=0; i<word.length(); i++)
+            int size= q.size();
+            char[] choices= {'A', 'C', 'G', 'T'};
+
+            while(size > 0)
             {
-                char origChar= replacedArray[i];
-                //replace this character with a , b, c, ....,z
-                for(char ch: choices)
+                String start= q.poll();
+
+                if(start.equals(endGene))
+                return level; 
+
+                StringBuilder sb= new StringBuilder(start);
+                
+                for(int i=0; i<8; i++)
                 {
-                    replacedArray[i]= ch;
-                    String replacedWord = new String(replacedArray);
-                    
-                    if(set.contains(replacedWord))
+                    char origVal = sb.charAt(i);
+                    for(int j=0; j<4; j++)
                     {
-                        set.remove(replacedWord);
-                        q.add(new Pair(replacedWord, level+1));
+                        sb.setCharAt(i, choices[j]); 
+                        if(bankSet.contains(sb.toString()) && !visi.contains(sb.toString()))
+                        {
+                            q.offer(sb.toString());
+                            visi.add(sb.toString());
+                        }
                     }
-                    
+                    // restore old val
+                    sb.setCharAt(i, origVal);
                 }
-                // RESET to original for next index
-                replacedArray[i]=origChar;
+                size--;
             }
-            
+            level++;
         }
-        // if there is no possible transformation
-        return -1;
-        
+        return -1;        
     }
 }
