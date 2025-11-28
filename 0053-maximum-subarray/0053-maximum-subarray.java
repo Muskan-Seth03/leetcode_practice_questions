@@ -1,18 +1,16 @@
-class Solution {   ///Optimal approach   TC:O(N)  SC: O(1)
-    public int maxSubArray(int[] nums) {   //Kadane algorithm
+// Kadane algortihm
+// TC: O(n)
+class Solution {
+    public int maxSubArray(int[] nums) {
         int n= nums.length;
-        int max_sum=Integer.MIN_VALUE;
-
-        int sum=0;
-        for(int i =0; i<n; i++)
-        {
-            sum+= nums[i];
-
-            max_sum= Math.max(max_sum, sum);
-
-            if(sum<0)
-            sum=0;
+        int currSubSum= nums[0];
+        int maxSubSum=nums[0];
+        
+        // kadane for finding maxSubSum
+        for(int i=1; i<n; i++){
+            currSubSum= Math.max(nums[i], currSubSum + nums[i]);
+            maxSubSum= Math.max(currSubSum, maxSubSum);
         }
-        return max_sum;
+        return maxSubSum;
     }
 }
