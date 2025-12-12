@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3221-find-the-peaks](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3221-find-the-peaks) |
 | [3331-minimum-operations-to-exceed-threshold-value-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3331-minimum-operations-to-exceed-threshold-value-i) |
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3347-distribute-elements-into-two-arrays-i) |
+| [3433-count-mentions-per-user](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3531-count-covered-buildings) |
 ## Divide and Conquer
 |  |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2271-rearrange-array-elements-by-sign](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2483-task-scheduler-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2483-task-scheduler-ii) |
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3347-distribute-elements-into-two-arrays-i) |
+| [3433-count-mentions-per-user](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3433-count-mentions-per-user) |
 ## Backtracking
 |  |
 | ------- |
@@ -359,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1236-n-th-tribonacci-number) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2206-detonate-the-maximum-bombs) |
+| [3433-count-mentions-per-user](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3433-count-mentions-per-user) |
 ## Recursion
 |  |
 | ------- |
@@ -457,6 +460,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2502-sort-the-people) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2836-neither-minimum-nor-maximum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2836-neither-minimum-nor-maximum) |
+| [3433-count-mentions-per-user](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3531-count-covered-buildings) |
 ## Graph
 |  |
