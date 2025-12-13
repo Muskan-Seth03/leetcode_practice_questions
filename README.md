@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3347-distribute-elements-into-two-arrays-i) |
 | [3433-count-mentions-per-user](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3531-count-covered-buildings) |
+| [3606-coupon-code-validator](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3606-coupon-code-validator) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -318,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2502-sort-the-people) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2594-count-pairs-of-similar-strings) |
 | [3531-count-covered-buildings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3531-count-covered-buildings) |
+| [3606-coupon-code-validator](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3606-coupon-code-validator) |
 | [3678-design-task-manager](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3678-design-task-manager) |
 ## Union Find
 |  |
@@ -462,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2836-neither-minimum-nor-maximum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2836-neither-minimum-nor-maximum) |
 | [3433-count-mentions-per-user](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3531-count-covered-buildings) |
+| [3606-coupon-code-validator](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3606-coupon-code-validator) |
 ## Graph
 |  |
 | ------- |
@@ -533,6 +536,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2594-count-pairs-of-similar-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2594-count-pairs-of-similar-strings) |
 | [2877-shortest-string-that-contains-three-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2877-shortest-string-that-contains-three-strings) |
 | [3019-furthest-point-from-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3019-furthest-point-from-origin) |
+| [3606-coupon-code-validator](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3606-coupon-code-validator) |
 ## Counting
 |  |
 | ------- |
