@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2035-count-sub-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2035-count-sub-islands) |
+| [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
+| [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 ## Two Pointers
 |  |
@@ -363,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1236-n-th-tribonacci-number) |
+| [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2206-detonate-the-maximum-bombs) |
 | [3433-count-mentions-per-user](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3433-count-mentions-per-user) |
