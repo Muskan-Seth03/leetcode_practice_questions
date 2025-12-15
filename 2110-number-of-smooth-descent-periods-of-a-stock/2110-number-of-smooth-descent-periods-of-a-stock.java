@@ -1,4 +1,8 @@
 // TC: O(n) SC: O(1)
+// [3]   only 1 subarray
+// [3, 2]  ......[3] already added ....new addition [2], [3, 2]  (2 new subarrays)
+// [3, 2, 1].....[3], [2], [3, 2] already added...new addition [1], [2, 1], [3, 2, 1] (3 new subarrays)
+
 class Solution {
     public long getDescentPeriods(int[] prices) {
         int n= prices.length;
