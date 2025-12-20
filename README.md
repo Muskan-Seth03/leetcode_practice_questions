@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2206-detonate-the-maximum-bombs) |
+| [2270-number-of-ways-to-split-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2270-number-of-ways-to-split-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2312-most-frequent-number-following-key-in-an-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2312-most-frequent-number-following-key-in-an-array) |
@@ -694,4 +695,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3678-design-task-manager](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3678-design-task-manager) |
+## Prefix Sum
+|  |
+| ------- |
+| [2270-number-of-ways-to-split-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2270-number-of-ways-to-split-array) |
 <!---LeetCode Topics End-->
