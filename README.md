@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0695-max-area-of-island) |
+| [0724-find-pivot-index](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0735-asteroid-collision) |
 | [0747-min-cost-climbing-stairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0747-min-cost-climbing-stairs) |
@@ -698,5 +699,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0724-find-pivot-index](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0724-find-pivot-index) |
 | [2270-number-of-ways-to-split-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2270-number-of-ways-to-split-array) |
 <!---LeetCode Topics End-->
