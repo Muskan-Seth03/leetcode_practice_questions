@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0907-koko-eating-bananas) |
 | [0944-delete-columns-to-make-sorted](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0955-delete-columns-to-make-sorted-ii) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1036-rotting-oranges](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1036-rotting-oranges) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1073-number-of-enclaves](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1073-number-of-enclaves) |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0583-delete-operation-for-two-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0647-palindromic-substrings) |
 | [0747-min-cost-climbing-stairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0747-min-cost-climbing-stairs) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1008-binary-tree-cameras](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1008-binary-tree-cameras) |
 | [1013-fibonacci-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1013-fibonacci-number) |
 | [1170-shortest-common-supersequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1170-shortest-common-supersequence) |
@@ -529,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0812-rotate-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0812-rotate-string) |
 | [0944-delete-columns-to-make-sorted](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0955-delete-columns-to-make-sorted-ii) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1078-remove-outermost-parentheses](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1078-remove-outermost-parentheses) |
 | [1170-shortest-common-supersequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1250-longest-common-subsequence) |
