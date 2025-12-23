@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2035-count-sub-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2035-count-sub-islands) |
+| [2054-two-best-non-overlapping-events](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2054-two-best-non-overlapping-events) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2206-detonate-the-maximum-bombs) |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
+| [2054-two-best-non-overlapping-events](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2054-two-best-non-overlapping-events) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
@@ -413,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [2054-two-best-non-overlapping-events](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2054-two-best-non-overlapping-events) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2600-maximum-tastiness-of-candy-basket) |
 ## Interactive
 |  |
@@ -474,6 +477,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
+| [2054-two-best-non-overlapping-events](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2054-two-best-non-overlapping-events) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2502-sort-the-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2502-sort-the-people) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2600-maximum-tastiness-of-candy-basket) |
@@ -626,6 +630,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0692-top-k-frequent-words) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0789-kth-largest-element-in-a-stream) |
+| [2054-two-best-non-overlapping-events](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2054-two-best-non-overlapping-events) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [3678-design-task-manager](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3678-design-task-manager) |
 ## Bucket Sort
