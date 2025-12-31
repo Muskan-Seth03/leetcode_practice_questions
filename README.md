@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1876-map-of-highest-peak](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1876-map-of-highest-peak) |
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2035-count-sub-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2035-count-sub-islands) |
 | [2054-two-best-non-overlapping-events](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2054-two-best-non-overlapping-events) |
@@ -274,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1073-number-of-enclaves) |
 | [1104-coloring-a-border](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1104-coloring-a-border) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2035-count-sub-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2035-count-sub-islands) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
@@ -360,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1073-number-of-enclaves](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1073-number-of-enclaves) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2035-count-sub-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2035-count-sub-islands) |
 ## Matrix
 |  |
@@ -381,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1876-map-of-highest-peak](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1876-map-of-highest-peak) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2035-count-sub-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2035-count-sub-islands) |
 ## Math
@@ -431,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2054-two-best-non-overlapping-events](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2054-two-best-non-overlapping-events) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2600-maximum-tastiness-of-candy-basket) |
 ## Interactive
@@ -473,6 +478,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1876-map-of-highest-peak](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1876-map-of-highest-peak) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2035-count-sub-islands](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2035-count-sub-islands) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
