@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0056-merge-intervals) |
+| [0066-plus-one](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0079-word-search) |
@@ -393,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0048-rotate-image) |
+| [0066-plus-one](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0070-climbing-stairs) |
 | [0840-magic-squares-in-grid](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0840-magic-squares-in-grid) |
 | [1013-fibonacci-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1013-fibonacci-number) |
