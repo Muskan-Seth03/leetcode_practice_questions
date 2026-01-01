@@ -1,48 +1,23 @@
-// TC: O(n) SC: O(n)
 class Solution {
     public int[] plusOne(int[] digits) {
-        int n= digits.length;
-        int res[]= new int[n+1];
-        if(digits[n-1] < 9)
-        {
-            digits[n-1] = digits[n-1] + 1;
-            return digits;
-        }
-        // else
-        int carry= 0;
-        int i=n-1;
-        if(digits[i] == 9)
-        {
-            carry = 1;
-            digits[i]= 0;
-            i--;
-            while(carry != 0 && i >= 0)
-            {
-                if(digits[i] == 9)
-                {
-                    digits[i]=0;
-                    carry =1;
-                }               
-                else if (digits[i] < 9)
-                {
-                   digits[i]= digits[i] + 1;
-                   carry = 0;  
-                } 
-                i--;
+        int n = digits.length;
+
+        // Traverse from last digit
+        for (int i = n - 1; i >= 0; i--) {
+
+            // If digit is less than 9, just add 1 and return
+            if (digits[i] < 9) {
+                digits[i]++;
+                return digits;
             }
-            // add carry at the front and shift all element to right by 1 position, return a new array 
-            if(carry != 0)
-            {
-                res[0]= carry;
-                for(int k=1; k<res.length; k++)
-                {
-                    res[k]= digits[k-1];
-                }
-                return res;
-            }
-            
+
+            // digit == 9 → becomes 0, carry continues
+            digits[i] = 0;
         }
-        return digits;
-       
+
+        // If all digits were 9
+        int[] res = new int[n + 1];
+        res[0] = 1;
+        return res;
     }
 }
