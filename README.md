@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0944-delete-columns-to-make-sorted](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0960-delete-columns-to-make-sorted-iii) |
+| [0961-n-repeated-element-in-size-2n-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [1036-rotting-oranges](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1036-rotting-oranges) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1073-number-of-enclaves](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1073-number-of-enclaves) |
@@ -331,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0756-pyramid-transition-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0756-pyramid-transition-matrix) |
 | [0840-magic-squares-in-grid](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0840-magic-squares-in-grid) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0961-n-repeated-element-in-size-2n-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1264-maximum-number-of-words-you-can-type) |
