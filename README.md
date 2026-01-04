@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1390-four-divisors](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1390-four-divisors) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -402,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0840-magic-squares-in-grid](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0840-magic-squares-in-grid) |
 | [1013-fibonacci-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1236-n-th-tribonacci-number) |
+| [1390-four-divisors](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1390-four-divisors) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2206-detonate-the-maximum-bombs) |
