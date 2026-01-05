@@ -1,32 +1,48 @@
-// using dfs 
+// using bfs 
 // TC: O(log n * row * col)
 // SC: O(row * col)
-class Solution {
-    private boolean dfs(int i, int j, int[][]grid)
+class Pair{
+    int first;
+    int second;
+    Pair(int first, int second)
     {
-        // boundary condition
-        if(i < 0 || i >=grid.length || j < 0 || j >=grid[0].length || grid[i][j] == 1)
-        return false;
-
-        // base case: when reached bottom row
-        if(i == grid.length - 1)
-        return true;
-
-        grid[i][j] = 1; 
+        this.first= first;
+        this.second= second;
+    }
+}
+class Solution {
+    private boolean bfs(int i, int j, int[][]grid)
+    {
+        Queue<Pair> q = new LinkedList<>();
+        q.offer(new Pair(i, j));
+        grid[i][j]= 1;
 
         int[] dir_r= {-1, 0, 1, 0};
         int[] dir_c= {0, 1, 0, -1};
-
-        for(int k=0; k<4; k++)
+        
+        while(!q.isEmpty())
         {
-            int new_r= i + dir_r[k];
-            int new_c= j + dir_c[k];
-            if(dfs(new_r, new_c, grid))
+            Pair temp= q.poll();
+            int row= temp.first;
+            int col= temp.second;
+
+            if(row == grid.length - 1)
+            return true;
+
+            for(int k=0; k<4; k++)
             {
-                return true;
+                int new_r= row + dir_r[k];
+                int new_c= col + dir_c[k];
+
+                if(new_r >= 0 && new_c >=0 && new_r < grid.length && new_c < grid[0].length && grid[new_r][new_c] == 0)
+                {
+                    q.offer(new Pair(new_r, new_c));
+                    grid[new_r][new_c] = 1;
+                }
             }
         }
         return false;
+       
     }
 
     private boolean canCross(int[][]cells, int mid, int row, int col)
@@ -44,7 +60,7 @@ class Solution {
         // apply dfs
         for(int j=0; j<col; j++)
         {
-            if(grid[0][j] == 0 && dfs(0, j, grid) == true)
+            if(grid[0][j] == 0 && bfs(0, j, grid) == true)
             {
                 return true;
             }
