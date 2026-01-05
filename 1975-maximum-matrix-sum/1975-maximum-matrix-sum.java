@@ -2,9 +2,9 @@
 class Solution {
     public long maxMatrixSum(int[][] matrix) {
         int n= matrix.length;
-        long sum= 0;
+        int mini = 100001;
+        long sum = 0L;
         long count=0;
-        long mini= Long.MAX_VALUE;
 
         for(int i=0; i<n; i++)
         {
