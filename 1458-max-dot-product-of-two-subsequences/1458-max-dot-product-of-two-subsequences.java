@@ -1,26 +1,32 @@
-// memoization
-// TC: O(m * n)  SC: O(m * n) + O(m + n)  dp and recursion stack 
+// tabulation
+// TC: O(m * n)  SC: O(m * n) dp table
 class Solution {
-    public int solve(int i, int j, int[]nums1, int[] nums2, Integer[][]dp)
-    {
-        // base case
-        if(i>= nums1.length || j>= nums2.length) return Integer.MIN_VALUE;
-        
-        if(dp[i][j] != null)
-           return dp[i][j];
-        
-        int product= nums1[i] * nums2[j];
-        int include = product + Math.max(0, solve(i+1, j+1, nums1, nums2, dp));
-        int exclude1= solve(i , j+1, nums1, nums2, dp);
-        int exclude2= solve(i+1, j, nums1, nums2, dp);
-
-        return dp[i][j]= Math.max(include, Math.max(exclude1, exclude2));
-    }
     public int maxDotProduct(int[] nums1, int[] nums2) {
         int m= nums1.length;
         int n= nums2.length;
         Integer[][] dp= new Integer[m][n];
 
-        return solve(0, 0, nums1, nums2, dp);
+        for(int i=0; i<m; i++)
+        {
+            for(int j=0; j<n; j++)
+            {
+                int product= nums1[i] * nums2[j];
+                dp[i][j]= product;
+
+                if(i>0 && j>0)
+                {
+                    dp[i][j]= Math.max(dp[i][j], product + Math.max(0, dp[i-1][j-1]));
+                }
+                if(i > 0)
+                {
+                    dp[i][j]= Math.max(dp[i][j], dp[i-1][j]);
+                }
+                if(j > 0)
+                {
+                    dp[i][j]= Math.max(dp[i][j], dp[i][j-1]);
+                }
+            }
+        }
+        return dp[m-1][n-1];
     }
 }
