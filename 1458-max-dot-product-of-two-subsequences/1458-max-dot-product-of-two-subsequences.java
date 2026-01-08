@@ -1,32 +1,34 @@
-// tabulation
-// TC: O(m * n)  SC: O(m * n) dp table
+// space optimisation
+// TC: O(m * n)  SC: O(min(m, n))
 class Solution {
     public int maxDotProduct(int[] nums1, int[] nums2) {
         int m= nums1.length;
         int n= nums2.length;
-        Integer[][] dp= new Integer[m][n];
+        int prev[]= new int[n];
+        int curr[]= new int[n];
 
         for(int i=0; i<m; i++)
         {
             for(int j=0; j<n; j++)
             {
                 int product= nums1[i] * nums2[j];
-                dp[i][j]= product;
+                curr[j]= product;
 
                 if(i>0 && j>0)
                 {
-                    dp[i][j]= Math.max(dp[i][j], product + Math.max(0, dp[i-1][j-1]));
+                    curr[j]= Math.max(curr[j], product + Math.max(0, prev[j-1]));
                 }
                 if(i > 0)
                 {
-                    dp[i][j]= Math.max(dp[i][j], dp[i-1][j]);
+                    curr[j]= Math.max(curr[j], prev[j]);
                 }
                 if(j > 0)
                 {
-                    dp[i][j]= Math.max(dp[i][j], dp[i][j-1]);
+                    curr[j]= Math.max(curr[j], curr[j-1]);
                 }
             }
+            prev= curr.clone();
         }
-        return dp[m-1][n-1];
+        return prev[n-1];
     }
 }
