@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1390-four-divisors](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1390-four-divisors) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1876-map-of-highest-peak](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1876-map-of-highest-peak) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
 | [2054-two-best-non-overlapping-events](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2054-two-best-non-overlapping-events) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
