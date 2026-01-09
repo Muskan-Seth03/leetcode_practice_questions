@@ -13,42 +13,40 @@
  *     }
  * }
  */
-// 2 pass solution
+// 1 pass solution
 // TC: O(n) SC: O(maxD)
+
+class Pair{
+    TreeNode node;
+    int d;
+    Pair(TreeNode node, int d){
+        this.node= node;
+        this.d= d;
+    }
+} 
 class Solution {
-    int maxD;
-    Map<Integer, Integer> map;
+    public Pair dfs(TreeNode root)
+    {
+        if(root == null)
+        return new Pair(root, 0);
 
-    // creating hashmap with all node.val and its level
-    public void depth(TreeNode root, int d) {
-        if (root == null) return;
+        Pair l = dfs(root.left);
+        Pair r = dfs(root.right);
 
-        maxD = Math.max(maxD, d);
-        map.put(root.val, d);
-
-        depth(root.left, d + 1);
-        depth(root.right, d + 1);
+        if(l.d == r.d)
+        {
+            return new Pair(root, l.d + 1);
+        }
+        else if(l.d > r.d) 
+        {
+            return new Pair(l.node, l.d + 1);
+        }
+        else
+        {
+            return new Pair(r.node, r.d + 1);
+        }
     }
-
-    public TreeNode LCA(TreeNode root) {
-        if (root == null || map.get(root.val) == maxD) return root;
-
-        TreeNode left = LCA(root.left);
-        TreeNode right = LCA(root.right);
-
-        if (left != null && right != null) return root;
-
-        if (left != null) return left; else return right;
-    }
-
     public TreeNode subtreeWithAllDeepest(TreeNode root) {
-        maxD = 0;
-        map = new HashMap<>();
-
-        if (root == null) return null;
-
-        depth(root, 0);
-
-        return LCA(root);
+        return dfs(root).node;
     }
 }
