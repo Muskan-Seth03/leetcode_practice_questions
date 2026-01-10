@@ -1,28 +1,46 @@
-class Solution {  //tabulation approach  TC: O(n*m)  SC:O(n*m)
-    public static int longestPalindromicSubsequence(String s1, String s2)
+// memoization approach
+// TC: (m * n) SC: O(m * n)
+class Solution {
+    int[][] dp;
+    int m, n;
+    public int solve(int i, int j, String word1, String word2)
     {
-        int n= s1.length();
-        int m= s2.length();
+        // if i and j th char is empty
+        if( i>= m && j>= n)
+        return 0;
+        
+        if(dp[i][j] != -1)
+        return dp[i][j];
 
-        int dp[][]= new int [n+1][m+1];
-        for(int i=0; i<=n; i++)
-        dp[i][0]=0;
-        for(int j=0; j<=m; j++)
-        dp[0][j]=0;
-        for(int i=1; i<=n; i++)
+        // if i or j th char is empty
+        if(i >= m)
         {
-            for(int j=1; j<=m; j++)
-            {
-                if(s1.charAt(i-1) == s2.charAt(j-1))
-                dp[i][j]= 1 + dp[i-1][j-1];
-                else
-                dp[i][j]= Math.max(dp[i-1][j], dp[i][j-1]);
-            }
+            return 1 + solve(i, j+1, word1, word2);
         }
-        return dp[n][m];
-    } 
+        if(j >= n)
+        {
+            return 1 + solve(i+1, j, word1, word2);
+        }
+
+        if(word1.charAt(i) == word2.charAt(j))
+        {
+            return 0 + solve(i+1, j+1, word1, word2);
+        }
+        // if non empty and not same , 2 options
+        int delete_s1_i= 1 + solve(i+1, j, word1, word2);
+        int delete_s2_j= 1 + solve(i, j+1, word1, word2);
+
+        return dp[i][j]= Math.min(delete_s1_i, delete_s2_j);
+    }
     public int minDistance(String word1, String word2) {
-        int len= longestPalindromicSubsequence(word1, word2);
-        return (word1.length() - len) + (word2.length() - len);  
+        m= word1.length();
+        n= word2.length();
+        dp= new int[1001][1001];
+
+        for(int i=0; i< dp.length; i++)
+        Arrays.fill(dp[i], -1);
+
+        return solve(0, 0, word1, word2);    
     }
 }
+    
