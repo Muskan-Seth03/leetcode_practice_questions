@@ -216,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0011-container-with-most-water) |
 | [0044-wildcard-matching](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0402-remove-k-digits](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0955-delete-columns-to-make-sorted-ii) |
@@ -586,6 +587,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0387-first-unique-character-in-a-string](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0387-first-unique-character-in-a-string) |
+| [0402-remove-k-digits](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0402-remove-k-digits) |
 | [0433-minimum-genetic-mutation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0433-minimum-genetic-mutation) |
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0516-longest-palindromic-subsequence) |
@@ -655,6 +657,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0225-implement-stack-using-queues](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0225-implement-stack-using-queues) |
+| [0402-remove-k-digits](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0735-asteroid-collision) |
@@ -769,6 +772,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0085-maximal-rectangle) |
+| [0402-remove-k-digits](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0739-daily-temperatures) |
