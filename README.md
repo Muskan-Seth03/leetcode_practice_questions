@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0792-binary-search) |
 | [0840-magic-squares-in-grid](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0840-magic-squares-in-grid) |
@@ -657,6 +658,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0739-daily-temperatures) |
 | [1078-remove-outermost-parentheses](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 ## Design
@@ -769,6 +771,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0085-maximal-rectangle) |
 | [0496-next-greater-element-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0503-next-greater-element-ii) |
+| [0739-daily-temperatures](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0739-daily-temperatures) |
 ## Ordered Set
 |  |
 | ------- |
