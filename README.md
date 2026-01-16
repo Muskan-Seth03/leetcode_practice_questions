@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2836-neither-minimum-nor-maximum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2836-neither-minimum-nor-maximum) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2876-number-of-employees-who-met-the-target) |
+| [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3074-apple-redistribution-into-boxes](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3221-find-the-peaks](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3221-find-the-peaks) |
@@ -381,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2486-most-frequent-even-element](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2486-most-frequent-even-element) |
 | [2502-sort-the-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2502-sort-the-people) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2594-count-pairs-of-similar-strings) |
+| [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3531-count-covered-buildings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3531-count-covered-buildings) |
 | [3606-coupon-code-validator](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3606-coupon-code-validator) |
 | [3678-design-task-manager](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3678-design-task-manager) |
@@ -749,6 +751,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2877-shortest-string-that-contains-three-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2877-shortest-string-that-contains-three-strings) |
+| [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3221-find-the-peaks](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3221-find-the-peaks) |
 ## Linked List
 |  |
