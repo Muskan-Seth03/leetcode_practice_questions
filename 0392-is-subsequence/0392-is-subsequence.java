@@ -1,21 +1,21 @@
-// TC: O(n * m)  SC: O(1)
+// 2 pointer approach
+// TC: O(n + m)  SC: O(1)
 class Solution {
     public boolean isSubsequence(String s, String t) {
-        int prevIndex= -1;
-        for(char c: s.toCharArray())
+        int i=0;
+        int j=0;
+        while(i<s.length() && j <t.length())
         {
-            boolean found= false;
-            for(int j= prevIndex + 1; j < t.length(); j++)
+            if(s.charAt(i) == t.charAt(j))
             {
-                if(t.charAt(j) == c)
-                {
-                    prevIndex= j;
-                    found= true;
-                    break;
-                }
+                i++;
+                j++;
             }
-            if(!found) return false;
-        }        
-        return true;
+            else
+            {
+                j++;
+            }
+        } 
+        return i == s.length();
     }
 }
