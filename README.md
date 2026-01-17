@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2836-neither-minimum-nor-maximum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2836-neither-minimum-nor-maximum) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2876-number-of-employees-who-met-the-target) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3074-apple-redistribution-into-boxes](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3221-find-the-peaks](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3221-find-the-peaks) |
@@ -440,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2206-detonate-the-maximum-bombs) |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3433-count-mentions-per-user](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3433-count-mentions-per-user) |
 ## Recursion
 |  |
@@ -657,6 +659,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1266-minimum-time-visiting-all-points](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1266-minimum-time-visiting-all-points) |
 | [2206-detonate-the-maximum-bombs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2206-detonate-the-maximum-bombs) |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 ## Stack
 |  |
 | ------- |
