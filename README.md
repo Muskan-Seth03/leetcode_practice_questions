@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1876-map-of-highest-peak](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1876-map-of-highest-peak) |
+| [1895-largest-magic-square](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1895-largest-magic-square) |
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1975-maximum-matrix-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1975-maximum-matrix-sum) |
@@ -425,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1876-map-of-highest-peak](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1876-map-of-highest-peak) |
+| [1895-largest-magic-square](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1895-largest-magic-square) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1975-maximum-matrix-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1975-maximum-matrix-sum) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
@@ -803,6 +805,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0724-find-pivot-index](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0724-find-pivot-index) |
+| [1895-largest-magic-square](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1895-largest-magic-square) |
 | [2270-number-of-ways-to-split-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2270-number-of-ways-to-split-array) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2483-minimum-penalty-for-a-shop) |
 ## Segment Tree
