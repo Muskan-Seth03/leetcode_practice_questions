@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1104-coloring-a-border](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1104-coloring-a-border) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1266-minimum-time-visiting-all-points](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1266-minimum-time-visiting-all-points) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1390-four-divisors](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1390-four-divisors) |
@@ -424,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1073-number-of-enclaves) |
 | [1104-coloring-a-border](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1104-coloring-a-border) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1876-map-of-highest-peak](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1876-map-of-highest-peak) |
 | [1895-largest-magic-square](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1895-largest-magic-square) |
@@ -480,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0882-peak-index-in-a-mountain-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -805,6 +808,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0724-find-pivot-index](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0724-find-pivot-index) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1895-largest-magic-square](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1895-largest-magic-square) |
 | [2270-number-of-ways-to-split-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2270-number-of-ways-to-split-array) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2483-minimum-penalty-for-a-shop) |
