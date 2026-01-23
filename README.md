@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3453-separate-squares-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3453-separate-squares-i) |
 | [3454-separate-squares-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3454-separate-squares-ii) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3531-count-covered-buildings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3531-count-covered-buildings) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3606-coupon-code-validator](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3606-coupon-code-validator) |
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3347-distribute-elements-into-two-arrays-i) |
 | [3433-count-mentions-per-user](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3433-count-mentions-per-user) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 ## Backtracking
 |  |
 | ------- |
@@ -395,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2594-count-pairs-of-similar-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2594-count-pairs-of-similar-strings) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3531-count-covered-buildings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3531-count-covered-buildings) |
 | [3606-coupon-code-validator](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3606-coupon-code-validator) |
 | [3678-design-task-manager](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3678-design-task-manager) |
@@ -730,6 +733,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2402-meeting-rooms-iii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2402-meeting-rooms-iii) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3678-design-task-manager](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3678-design-task-manager) |
 ## Bucket Sort
 |  |
@@ -780,6 +784,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0203-remove-linked-list-elements](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0203-remove-linked-list-elements) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 ## Database
 |  |
 | ------- |
@@ -813,6 +818,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3678-design-task-manager](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3678-design-task-manager) |
 ## Prefix Sum
 |  |
@@ -834,4 +840,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 <!---LeetCode Topics End-->
