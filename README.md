@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-min-cost-climbing-stairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0792-binary-search) |
 | [0840-magic-squares-in-grid](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0840-magic-squares-in-grid) |
+| [0881-boats-to-save-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0881-boats-to-save-people) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0907-koko-eating-bananas) |
 | [0944-delete-columns-to-make-sorted](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0944-delete-columns-to-make-sorted) |
@@ -195,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0455-assign-cookies) |
 | [0647-palindromic-substrings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0680-valid-palindrome-ii) |
+| [0881-boats-to-save-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0881-boats-to-save-people) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -238,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
 | [0680-valid-palindrome-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0680-valid-palindrome-ii) |
+| [0881-boats-to-save-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0881-boats-to-save-people) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1877-minimize-maximum-pair-sum-in-array) |
@@ -563,6 +566,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0692-top-k-frequent-words) |
+| [0881-boats-to-save-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0881-boats-to-save-people) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
