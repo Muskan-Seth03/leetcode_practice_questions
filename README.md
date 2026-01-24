@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1876-map-of-highest-peak](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1876-map-of-highest-peak) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1895-largest-magic-square](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1895-largest-magic-square) |
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1970-last-day-where-you-can-still-cross) |
@@ -195,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0680-valid-palindrome-ii) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Simulation
 |  |
@@ -238,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0680-valid-palindrome-ii) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1975-maximum-matrix-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1975-maximum-matrix-sum) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2877-shortest-string-that-contains-three-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2877-shortest-string-that-contains-three-strings) |
@@ -563,6 +566,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2054-two-best-non-overlapping-events](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2054-two-best-non-overlapping-events) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2402-meeting-rooms-iii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2402-meeting-rooms-iii) |
