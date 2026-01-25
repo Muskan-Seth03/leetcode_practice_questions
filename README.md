@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0542-01-matrix) |
+| [0561-array-partition](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0695-max-area-of-island) |
@@ -239,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0402-remove-k-digits](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0455-assign-cookies) |
+| [0561-array-partition](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
 | [0680-valid-palindrome-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0680-valid-palindrome-ii) |
 | [0881-boats-to-save-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0881-boats-to-save-people) |
@@ -567,6 +569,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0414-third-maximum-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0414-third-maximum-number) |
 | [0451-sort-characters-by-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0455-assign-cookies) |
+| [0561-array-partition](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0692-top-k-frequent-words) |
 | [0881-boats-to-save-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0881-boats-to-save-people) |
@@ -857,4 +860,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
+## Counting Sort
+|  |
+| ------- |
+| [0561-array-partition](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0561-array-partition) |
 <!---LeetCode Topics End-->
