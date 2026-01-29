@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2836-neither-minimum-nor-maximum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2836-neither-minimum-nor-maximum) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2876-number-of-employees-who-met-the-target) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3074-apple-redistribution-into-boxes](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3075-maximize-happiness-of-selected-children) |
@@ -673,6 +674,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2502-sort-the-people) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2594-count-pairs-of-similar-strings) |
 | [2877-shortest-string-that-contains-three-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2877-shortest-string-that-contains-three-strings) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3019-furthest-point-from-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3019-furthest-point-from-origin) |
 | [3606-coupon-code-validator](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3606-coupon-code-validator) |
 ## Counting
@@ -731,6 +733,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2976-minimum-cost-to-convert-string-i) |
 ## Trie
 |  |
 | ------- |
@@ -869,4 +872,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0561-array-partition](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0561-array-partition) |
+## Graph Theory
+|  |
+| ------- |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2976-minimum-cost-to-convert-string-i) |
 <!---LeetCode Topics End-->
