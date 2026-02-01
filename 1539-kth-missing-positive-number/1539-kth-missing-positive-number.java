@@ -1,17 +1,23 @@
-// TC: O(n)  SC: O(1)
+// TC: O(log n)  SC: O(1)
 class Solution {
     public int findKthPositive(int[] arr, int k) {
-            for(int num : arr)
+        int n= arr.length;
+        int low= 0;
+        int high= n-1;
+
+        while(low <= high)
+        {
+            int mid= low + (high - low) / 2;
+            int missing= arr[mid] - (mid + 1);
+            if(missing < k)
             {
-                if(num <= k)
-                {
-                    k++;
-                }
-                else
-                {
-                    break;       // further numbers will be greater 
-                }
+                low= mid + 1;
             }
-            return k;
+            else 
+            {
+                high= mid - 1;
+            }
+        }
+        return low + k;
     }
 }
