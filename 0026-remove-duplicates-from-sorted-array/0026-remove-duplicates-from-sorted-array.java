@@ -1,20 +1,16 @@
-// stay at first el and find the next different el through j and once we found the different el replace i+1 th el with different el 
-
+// TC: O(n)  SC: O(1)
 class Solution {
     public int removeDuplicates(int[] nums) {
-        int i=0;
-        for(int j= 1; j<nums.length; j++)
+        int n= nums.length;
+        int k=0;
+        for(int i=0; i<n-1; i++)
         {
-            if(nums[i] != nums[j])
+            if(nums[i] != nums[i+1])
             {
-                nums[i+1]=nums[j];
-                i++;
+                nums[k++]= nums[i]; 
             }
         }
-        return i+1;
-        
-        
+        nums[k++] = nums[n-1];
+        return k;
     }
 }
-
-  
