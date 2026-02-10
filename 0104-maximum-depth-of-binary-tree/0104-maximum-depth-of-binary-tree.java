@@ -13,14 +13,16 @@
  *     }
  * }
  */
+ // TC: O(n)
+ // SC: O(n) for skewed tree and O(log n) for balanced tree
 class Solution {
     public int maxDepth(TreeNode root) {
         if(root == null)
         return 0;
 
-        int left= maxDepth(root.left);
-        int right= maxDepth(root.right);
+        int leftDepth= maxDepth(root.left); 
+        int rightDepth= maxDepth(root.right);
 
-        return Math.max(left, right) + 1;
+        return 1 + Math.max(leftDepth, rightDepth); 
     }
 }
