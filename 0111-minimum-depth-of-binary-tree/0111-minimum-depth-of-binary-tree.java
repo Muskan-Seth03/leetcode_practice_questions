@@ -13,18 +13,37 @@
  *     }
  * }
  */
+// using bfs
+// TC: O(n)  SC: O(n) 
 class Solution {
     public int minDepth(TreeNode root) {
         if(root == null)
         return 0;
 
-        if(root.left == null)
-        return 1 + minDepth(root.right);
+        Queue<TreeNode> q= new LinkedList<>();
+        q.offer(root);
 
-        if(root.right == null) 
-        return 1 + minDepth(root.left);
+        int depth= 1;
+        while(!q.isEmpty())
+        {
+            int size= q.size();
+            for(int i=0; i < size; i++)
+            {
+                TreeNode node= q.poll();
 
-        // if both the paths exist then return the min of both 
-        return 1 + Math.min(minDepth(root.left), minDepth(root.right)); 
+                if(node.left == null && node.right ==  null)
+                {
+                    return depth;
+                }
+
+                if(node.left != null)
+                q.offer(node.left);
+
+                if(node.right != null)
+                q.offer(node.right);
+            }
+            depth++;
+        }
+        return depth;
     }
 }
