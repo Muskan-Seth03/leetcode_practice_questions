@@ -1,23 +1,62 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+// TC: O(n)  SC: O(log n) + O(n) for ArrayList + O(n) for arr
 class Solution {
-    List<Integer> nums;
+    // function to build BST from sorted array
+    public TreeNode helper(int[] nums, int start, int end)
+    {
+        if(start > end)
+        return null;
+
+        int mid= start + (end - start)/2;
+        TreeNode root = new TreeNode(nums[mid]);
+
+        root.left = helper(nums, start, mid - 1);
+        root.right= helper(nums, mid + 1, end);
+
+        return root;
+    }
+
+    public TreeNode sortedArrayToBST(int[] nums) {
+        int n= nums.length;
+        return helper(nums, 0, n-1);
+    }
+
+    public void inorder(TreeNode root, List<Integer> list)
+    {
+        if(root == null)
+        return;
+
+        inorder(root.left, list);
+        list.add(root.val);
+        inorder(root.right, list);
+    }
+
     public TreeNode balanceBST(TreeNode root) {
-        nums = new ArrayList<Integer>();
-        getNumbers(root);
-        TreeNode res = balanceTree(0,nums.size()-1);
-        return res;
+        List<Integer> list = new ArrayList<>();
+
+        if(root == null)
+        return root;
+
+        inorder(root, list);
+        
+        int[] arr = list.stream()
+                        .mapToInt(Integer::intValue)
+                        .toArray();
+                        
+        return sortedArrayToBST(arr);
     }
-    private void getNumbers(TreeNode node){
-        if(node==null) return;
-        getNumbers(node.left);
-        nums.add(node.val);
-        getNumbers(node.right);
-    }
-    private TreeNode balanceTree(int l, int r){
-        if(l>r)return null;
-        int middleIdx = l+ ((r-l)/2);
-        TreeNode res = new TreeNode(nums.get(middleIdx));
-        res.left = balanceTree(l,middleIdx-1);
-        res.right = balanceTree(middleIdx+1,r);
-        return res;
-    }              
 }
