@@ -13,30 +13,24 @@
  *     }
  * }
  */
- // using iterative approach
- // TC:O(N) SC:O(N)  --- skewed tree 
 class Solution {
-    public List<Integer> inorderTraversal(TreeNode root) {
-        Stack<TreeNode> s= new Stack<>();
-        List<Integer> inorder= new ArrayList<>();
+    public List<Integer> inorder(TreeNode root, List<Integer> list)
+    {
         if(root == null)
-        return inorder;
-        TreeNode node= root;
-        while(node!= null || !s.isEmpty())
-        {
-            if(node != null)
-            {
-                s.push(node);
-                node= node.left;
-            }
-            else
-            { 
-                TreeNode poppedNode= s.pop();
-                inorder.add(poppedNode.val);
-                node= poppedNode.right;
-            }
-        }
-        return inorder;
-        
+        return null;
+
+        inorder(root.left, list);
+        list.add(root.val);
+        inorder(root.right, list);
+
+        return list;
+    }
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+
+        if(root == null)
+        return list;
+
+        return inorder(root, list);
     }
 }
