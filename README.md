@@ -469,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0070-climbing-stairs) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0840-magic-squares-in-grid](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0840-magic-squares-in-grid) |
 | [0991-broken-calculator](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0991-broken-calculator) |
 | [1013-fibonacci-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1013-fibonacci-number) |
@@ -784,6 +785,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0090-subsets-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0222-count-complete-tree-nodes) |
 | [0756-pyramid-transition-matrix](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0756-pyramid-transition-matrix) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2427-first-letter-to-appear-twice](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2427-first-letter-to-appear-twice) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2594-count-pairs-of-similar-strings) |
