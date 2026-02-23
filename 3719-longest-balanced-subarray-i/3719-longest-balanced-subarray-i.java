@@ -1,26 +1,30 @@
+// 2 pointers approach
+// TC: O(n^2)  SC: O(n)
 class Solution {
-    private static int[] seen = new int[100001];
-    private static int leet = 0;
     public int longestBalanced(int[] nums) {
-        leet++; 
-        int n = nums.length;
-        int res = 0;
+        int n= nums.length;
 
-        for (int i = 0; i < n && n - i > res; i++) {
-            int[] A = new int[2];
-            int marker = (leet << 16) | (i + 1);
-            for (int j = i; j < n; j++) {
-                int val = nums[j];
-                if (seen[val] != marker) {
-                    seen[val] = marker;
-                    A[val & 1]++;
+        int maxLen= 0;
+        for(int i=0; i<n; i++)
+        {
+            Set<Integer> odd = new HashSet<>();
+            Set<Integer> even = new HashSet<>();
+            for(int j= i; j<n; j++)
+            {
+                if(nums[j] % 2 == 0)
+                {
+                    even.add(nums[j]);
                 }
-
-                if (A[0] == A[1])
-                    res = Math.max(res, j - i + 1);
+                else
+                {
+                    odd.add(nums[j]);
+                }
+                if(even.size() == odd.size())
+                {
+                    maxLen = Math.max(maxLen, j-i+1);
+                }
             }
         }
-
-        return res;
+        return maxLen;
     }
 }
