@@ -1,17 +1,54 @@
+// TC: O(max(m, n))
+// SC: O(max(m, n))
 class Solution {
-    public String addBinary(String a, String b) {
-        StringBuilder result = new StringBuilder();
-        int i = a.length() - 1, j = b.length() - 1, carry = 0;
+    public String reverse(String str)
+    {
+        char[] arr = str.toCharArray();
 
-        while (i >= 0 || j >= 0 || carry == 1) {
-            int sum = carry;
-            if (i >= 0) sum += a.charAt(i--) - '0';
-            if (j >= 0) sum += b.charAt(j--) - '0';
+        int left = 0;
+        int right = arr.length - 1;
 
-            result.append(sum % 2);
-            carry = sum / 2;
+        while (left < right) {
+            char temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+
+            left++;
+            right--;
         }
+        return new String(arr);
+    }
+    public String addBinary(String a, String b) {
+        int m= a.length() - 1;
+        int n= b.length() - 1;
 
-        return result.reverse().toString();
+        int sum= 0;
+        int carry= 0;
+        String res= "";
+
+        while(m>=0 || n>=0)
+        {
+            sum = carry;
+            if(m >= 0)
+            {
+                sum += a.charAt(m) - '0';
+                m--;
+            }
+
+            if(n >= 0)
+            {
+                sum += b.charAt(n) - '0';
+                n--;
+            }
+            if(sum % 2 == 0) 
+                res +='0';
+            else
+                res += "1";
+            
+            carry = sum > 1 ? 1 : 0;            
+        }
+        if(carry == 1)
+        res += carry;
+        return reverse(res);
     }
 }
