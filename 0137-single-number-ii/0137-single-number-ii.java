@@ -1,17 +1,27 @@
-// sorting based approach
-// TC: O(n log n)  SC: O(1)
+// bit manipulation
+// TC: O(n * 32)  SC: O(1)
 class Solution {
     public int singleNumber(int[] nums) {
-        int n= nums.length;
-        Arrays.sort(nums);
-        int ans= -1;
-        for(int i=0; i<n-2; i+=3)
+        int res = 0;
+        for(int k=0; k<32; k++)
         {
-            if(nums[i] != nums[i+2])
+            int countOnes= 0;
+            int countZeros= 0;
+            for(int num: nums)
             {
-                return nums[i];
+                if((num & (1 << k)) == 0)
+                {
+                    countZeros++;
+                }
+                else
+                countOnes++;
+            }
+            if(countOnes % 3 == 1)
+            {
+                // kth bit needs to be set
+                res = res | (1 << k);
             }
         }
-        return nums[n-1];
+        return res;
     }
 }
