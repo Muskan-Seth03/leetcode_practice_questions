@@ -24,7 +24,7 @@ class Solution {
                     }
                 }
                 // check in that col
-                for(int c = 0; c < m; c++)
+                for(int c = 0; c < n; c++)
                 {
                     if(c != col && mat[row][c] == 1)
                     {
