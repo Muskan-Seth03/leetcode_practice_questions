@@ -1,49 +1,38 @@
+// without sorting
+// TC: O(n* (k + 26))    SC: O(n)
 class Solution {
-    public boolean isAnagram(String s, String t)
+    int[] freq;
+    public String generateWord(String str)
     {
-        int n= s.length();
-        if(s.length()!= t.length())
-        return false;
-
-        int [] freq= new int[26];
-        for(int i=0; i<n; i++)
+        for(int i=0; i< str.length(); i++)
         {
-            freq[ s.charAt(i)- 'a']++;
-            freq[ t.charAt(i) -'a']--;
+            freq[str.charAt(i) - 'a']++;
         }
-
-        for(int c: freq)
+        StringBuilder sb = new StringBuilder();
+        for(int i=0; i < 26; i++)
         {
-            if(c!=0)
-            return false;
-        }
-        return true;
-    }
-    
-    public List<List<String>> groupAnagrams(String[] strs) {
-        List<List<String>> result = new ArrayList<>();
-        HashSet<Integer> set= new HashSet<>();
-
-        // Anagrams can be duplicate strings (e.g., ["bat", "tab", "bat"]), and using the string itself in the set won't track which occurrence was used.
-
-        for(int i=0; i<strs.length; i++) 
-        {
-            if(set.contains(i)) 
-            continue;
-
-            List<String> temp= new ArrayList<>();
-            temp.add(strs[i]);
-            set.add(i);
-            for(int j= i+1; j<strs.length; j++)
+            while(freq[i] != 0)
             {
-                if(!set.contains(j) && isAnagram(strs[i], strs[j]) == true)
-                {
-                    temp.add(strs[j]);
-                    set.add(j);
-                }
+                sb.append((char)(i + 'a'));
+                freq[i]--;
             }
-            result.add(temp);
         }
-        return result;       
+        return sb.toString();
+    }
+    public List<List<String>> groupAnagrams(String[] strs) {
+        int n= strs.length;
+        freq = new int[26];
+        Map<String, List<String>> map = new HashMap<>();
+
+        for(String str: strs)
+        {
+            String sortedWord = generateWord(str);
+            if(!map.containsKey(sortedWord))
+            {
+                map.put(sortedWord, new ArrayList<>());
+            }
+            map.get(sortedWord).add(str);
+        }
+        return new ArrayList<>(map.values());
     }
 }
