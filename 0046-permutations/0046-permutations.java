@@ -1,42 +1,39 @@
-class Solution {  //better approach
-
-    public void f(int ind, int [] nums, List<List<Integer>> result)
+// backtracking approach
+// TC: O(n * n!)  SC: O(n! + 2n)
+class Solution {
+    int n;
+    Set<Integer> set;
+    List<List<Integer>> res;
+    public void solve(List<Integer> temp, int[] nums)
     {
-        //base case
-        List<Integer> ds = new ArrayList<>();
-        if(ind== nums.length)
+        // base case
+        if(temp.size() == n)
         {
-            for(int i=0; i<nums.length; i++)
+            res.add(new ArrayList<>(temp));
+            return;
+        }
+        for(int i=0; i<n; i++)
+        {
+            if(!set.contains(nums[i]))
             {
-                ds.add(nums[i]);
+                temp.add(nums[i]);
+                set.add(nums[i]);
+
+                solve(temp, nums);
+                
+                temp.remove(temp.size() - 1);
+                set.remove(nums[i]);
             }
-        result.add(new ArrayList<>(ds));
-        return;
-        }
-
-        for(int i=ind; i<nums.length; i++)
-        {
-            swap(ind, i, nums);
-            f(ind+1, nums, result);
-            swap(ind, i, nums);
-
         }
     }
-
-    public void swap(int i, int j, int nums[])
-    {
-        int t= nums[i];
-        nums[i]= nums[j];
-        nums[j]= t;
-    }
-
     public List<List<Integer>> permute(int[] nums) {
-        List<List<Integer>> result= new ArrayList<>();
-
-        f(0, nums, result);
-
-        return result;
-
+        n = nums.length;
         
+        res = new ArrayList<>(); 
+        List<Integer> temp = new ArrayList<>();
+        set= new HashSet<>();
+        
+        solve(temp, nums);
+        return res;
     }
 }
