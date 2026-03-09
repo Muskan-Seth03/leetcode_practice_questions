@@ -1,38 +1,42 @@
-// space optimised approach
-// TC: O(n!* n)
-// SC: O(n) recursive stack space
-class Solution { 
-    public static void f(int ind, int[] nums, List<List<Integer>> ans)
+class Solution {  //better approach
+
+    public void f(int ind, int [] nums, List<List<Integer>> result)
     {
         //base case
-        if(ind==nums.length)
+        List<Integer> ds = new ArrayList<>();
+        if(ind== nums.length)
         {
-            List<Integer> ds= new ArrayList<>();
-            for(int num: nums)
-            ds.add(num);
-            ans.add(new ArrayList<>(ds));
-            return;
+            for(int i=0; i<nums.length; i++)
+            {
+                ds.add(nums[i]);
+            }
+        result.add(new ArrayList<>(ds));
+        return;
         }
-        // swap 
-        for(int i= ind; i< nums.length; i++)
+
+        for(int i=ind; i<nums.length; i++)
         {
-            swap(i, ind, nums);          
-            f(ind+1, nums, ans);
-            swap(i, ind, nums);              
+            swap(ind, i, nums);
+            f(ind+1, nums, result);
+            swap(ind, i, nums);
+
         }
     }
 
-    public static void swap(int i, int j, int []nums)
+    public void swap(int i, int j, int nums[])
     {
-        int temp= nums[i];
+        int t= nums[i];
         nums[i]= nums[j];
-        nums[j]= temp;
+        nums[j]= t;
     }
+
     public List<List<Integer>> permute(int[] nums) {
-        int n= nums.length;
-        List<List<Integer>> ans= new ArrayList<>();
-      
-        f(0, nums, ans);
-        return ans;
+        List<List<Integer>> result= new ArrayList<>();
+
+        f(0, nums, result);
+
+        return result;
+
+        
     }
 }
