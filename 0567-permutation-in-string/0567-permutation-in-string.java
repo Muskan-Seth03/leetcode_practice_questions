@@ -1,4 +1,5 @@
-// sliding window
+// sliding window  
+// TC: O(n)  SC: O(k)    k-> length of pattern
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
         int m = s1.length();
