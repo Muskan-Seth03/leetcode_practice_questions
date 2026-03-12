@@ -1,16 +1,21 @@
+// TC: O(n)  SC: O(1)
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int n= numbers.length;
-        Map<Integer, Integer> map = new HashMap<>();
-        for(int i = 0; i < n; i++)
+        int i=0;
+        int j = n-1;
+        while(i<j)
         {
-            int rem = target - numbers[i];
-            if(map.containsKey(rem))
+            if(nums[i] + nums[j] > target)
             {
-                return new int[] {map.get(rem) + 1, i+1};
+                j--;
             }
-            map.put(numbers[i], i);
+            else if(nums[i] + nums[j] < target)
+            {
+                i++;
+            }
+            else
+            return new int[]{i+1, j+1};
         }
-        return new int[]{};
     }
 }
