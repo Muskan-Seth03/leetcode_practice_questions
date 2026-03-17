@@ -1,22 +1,25 @@
-// M-1 Modifying the input array
+// M-2 Without modifying the input array
 // TC: O(m * nlogn)   SC: O(m * n)
 class Solution {
     public int largestSubmatrix(int[][] matrix) {
         int m= matrix.length;
         int n= matrix[0].length;
         int maxArea = 0;
+
+        int[] prevRow = new int[n];
         for(int i=0; i<m; i++)
         {
+            int[] currRow = matrix[i];
             for(int j=0; j<n; j++)
             {
-                if(matrix[i][j] == 1 && i>0)
+                if(currRow[j] == 1 && i>0)
                 {
-                    matrix[i][j] += matrix[i-1][j];
+                    currRow[j] += prevRow[j];
                 } 
             }
             // sort the row in desc order
             
-            int[] heights = matrix[i].clone();   // copy the array otherwise heights will contain the reference and orig array will get sorted
+            int[] heights = currRow.clone();   // copy the array otherwise heights will contain the reference and orig array will get sorted
             Arrays.sort(heights); // ascending
 
             // reverse array
@@ -32,6 +35,7 @@ class Solution {
                 int height = heights[ind];
                 maxArea= Math.max(maxArea, base * height);
             }
+            prevRow = currRow;
         }
         return maxArea;
     }
