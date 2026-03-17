@@ -16,7 +16,7 @@ class Solution {
             }
             // sort the row in desc order
             
-            int[] heights = matrix[i];
+            int[] heights = matrix[i].clone();   // copy the array otherwise heights will contain the reference and orig array will get sorted
             Arrays.sort(heights); // ascending
 
             // reverse array
