@@ -1,21 +1,25 @@
+// TC: O(m * n)  SC: O(1)
 class Solution {
     public int countSubmatrices(int[][] grid, int k) {
-        int r = grid.length;
-        int c = grid[0].length;
+        int count=0;
+        int m= grid.length;
+        int n= grid[0].length;
+        for(int i =0; i<m; i++)
+        {
+            for(int j=0; j<n; j++)
+            {
+                grid[i][j] += (i<1) ? 0 : grid[i-1][j];
+                grid[i][j] += (j<1) ? 0 : grid[i][j-1];
+                grid[i][j] -= (i<1 || j<1) ? 0 : grid[i-1][j-1];
 
-        long[] cols = new long[c];
-        int res = 0;
-
-        for (int i = 0; i < r; i++) {
-            long rowSum = 0;
-            for (int j = 0; j < c; j++) {
-                cols[j] += grid[i][j];
-                rowSum += cols[j];
-                if (rowSum <= k)
-                    res++;
+                if(grid[i][j] <= k)
+                {
+                    count++;
+                }
+                else
+                break;
             }
         }
-
-        return res;
+        return count;
     }
 }
