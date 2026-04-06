@@ -1,21 +1,25 @@
+// Memoization approach
 class Solution {
-    public int solve(int i, int j, int m, int n, int[][]grid)
+    public int solve(int i, int j, int m, int n, int[][]grid, int[][] dp)
     {
         // base case
         if(i== m-1 && j == n-1)
         return grid[i][j];
 
+        if(dp[i][j] != -1)
+        return dp[i][j];
+
         if(i == m-1) // last row
         {
-            return grid[i][j] + solve(i, j+1, m, n, grid);
+            return dp[i][j] = grid[i][j] + solve(i, j+1, m, n, grid, dp);
         }
         else if(j == n-1)
         {
-            return grid[i][j] + solve(i+1, j, m, n, grid);
+            return dp[i][j] = grid[i][j] + solve(i+1, j, m, n, grid, dp);
         }
         else
         {
-        return grid[i][j] + Math.min(solve(i, j+1, m, n, grid), solve(i+1, j, m, n, grid));
+        return dp[i][j] = grid[i][j] + Math.min(solve(i, j+1, m, n, grid, dp), solve(i+1, j, m, n, grid, dp));
         }
     }
 
@@ -23,6 +27,11 @@ class Solution {
         int m= grid.length;
         int n= grid[0].length;
 
-        return solve(0, 0, m, n, grid);       
+        int[][] dp = new int[m][n];
+        for(int[] row: dp)
+        {
+            Arrays.fill(row, -1);
+        }
+        return solve(0, 0, m, n, grid, dp);       
     }
 }
