@@ -1,30 +1,41 @@
-// memoization
-class Solution {
-    public int solve(int i, int j, int m, int n, int[][] dp)
-    {
-        // base case
-        if(i == m-1 && j == n-1)
-        return 1;
+import java.util.* ;
+import java.io.*; 
+public class Solution {
 
-        // check boundary
-        if(i<0 || i >= m || j<0 || j >= n)
-        return 0;
+	public static int f(int m, int n)
+	{	int []prev= new int[n];
+		int [] temp= new int [n];
+		for(int i=0; i<m; i++)
+		{	
 
-        if(dp[i][j] != -1)
-        return dp[i][j];
+			for(int j=0; j< n; j++)
+			{
+				if(i==0 && j==0)
+					temp[j]=1; // base case
+				//continue;
 
-        int right = solve(i, j+1, m, n, dp);
-        int down = solve(i+1, j, m, n, dp);
+				else
+				{
+					int up=0;
+					int left=0;
+				if(i>0)
+				 up= prev[j];
+				if(j>0)
+				 left= temp[j-1];
 
-        return dp[i][j] = right + down;
-    }
+				 temp[j]=up+left;
 
-    public int uniquePaths(int m, int n) {
-        int[][] dp = new int[m][n];
-        for(int[] d: dp)
-        {
-            Arrays.fill(d, -1);
-        }
-        return solve(0, 0, m, n, dp);
-    }
+				}
+				prev= temp;
+			}
+		}
+		return temp[n-1];
+
+	}
+	public static int uniquePaths(int m, int n) {
+	
+		return f(m, n);
+		
+		
+	}
 }
