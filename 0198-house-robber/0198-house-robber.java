@@ -1,15 +1,21 @@
-class Solution { //Tabulation   TC: O(2^n)*O(1)
+class Solution {
+    public int solve(int i, int[] nums, int[] dp)
+    {
+        if(i >= nums.length) return 0;
 
+        if(dp[i] != -1) return dp[i];
+
+        int steal = nums[i] + solve(i+2, nums, dp);
+        int skip = solve(i+1, nums, dp);
+
+        return dp[i] = Math.max(steal, skip);
+    }
     public int rob(int[] nums) {
         int n = nums.length;
-        int dp[] = new int[n + 1];
-        dp[n] = 0;
-        dp[n - 1] = nums[n - 1];
-        for (int i = n - 2; i >= 0; i--) {
-            int rob = nums[i] + dp[i + 2];
-            int not_rob =dp[i + 1];
-            dp[i] = Math.max(rob, not_rob);
-        }
-        return dp[0];
+
+        int[] dp = new int[n];
+        Arrays.fill(dp, -1);
+        
+        return solve(0, nums, dp);        
     }
 }
