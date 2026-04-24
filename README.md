@@ -686,6 +686,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2483-minimum-penalty-for-a-shop](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2502-sort-the-people](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2502-sort-the-people) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2594-count-pairs-of-similar-strings) |
+| [2833-furthest-point-from-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2833-furthest-point-from-origin) |
 | [2877-shortest-string-that-contains-three-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2877-shortest-string-that-contains-three-strings) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2977-minimum-cost-to-convert-string-ii) |
@@ -709,6 +710,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2427-first-letter-to-appear-twice](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2427-first-letter-to-appear-twice) |
 | [2486-most-frequent-even-element](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2486-most-frequent-even-element) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2594-count-pairs-of-similar-strings) |
+| [2833-furthest-point-from-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2833-furthest-point-from-origin) |
 | [3019-furthest-point-from-origin](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/3019-furthest-point-from-origin) |
 ## Geometry
 |  |
