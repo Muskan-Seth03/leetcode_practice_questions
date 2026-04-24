@@ -1,68 +1,32 @@
-import java.util.*;           // using bfs
+// TC: O(n^2)  SC: O(n)
 
 class Solution {
-    private int visi[];
-    private ArrayList<ArrayList<Integer>> adjList; 
-    
-    private void bfs(int i)
+    public void dfs(int curr, int[][] isConnected, int[] visi)
     {
-        visi[i]= 1;
+        int n = isConnected.length;
+        visi[curr] = 1;
 
-        Queue<Integer> q= new LinkedList<>();
-        q.offer(i);
-        
-        while(!q.isEmpty())
-        {
-            int node= q.poll();
-            
-            for(int adjNode : adjList.get(node))
-            {
-                if(visi[adjNode] == 0)
-                {
-                    visi[adjNode] = 1;
-                  
-                    q.offer(adjNode);
-                }
-            }
-        }
-    }
-    
-    public int findCircleNum(int[][] isConnected) {
-        int n= isConnected.length;
-        adjList = new ArrayList<>();
-  
-        visi= new int[n];
-
-       
-
-        for(int i=0; i < n; i++)
-        {
-            adjList.add(new ArrayList<>());
-        }
-        
-        for(int i=0; i < n; i++)
-        {
-            for(int j=0; j<n; j++)
-            {
-                if(isConnected[i][j] == 1)
-                {
-                    adjList.get(i).add(j);
-                }
-            }   
-        }
-        
-        int connectedComp = 0;
         for(int i=0; i<n; i++)
         {
-           
-            if(visi[i]==0)
+            if(isConnected[curr][i] == 1 && curr != i && visi[i] == 0) 
             {
-                connectedComp++;
-                bfs(i);
-            }
-            
+                dfs(i, isConnected, visi);
+            } 
         }
-        
-        return connectedComp;        
+        return;
+    }
+    public int findCircleNum(int[][] isConnected) {
+        int n = isConnected.length;
+        int[] visi = new int[n];
+        int component = 0;
+        for(int i=0; i<n; i++)
+        {
+            if(visi[i] == 0)
+            {
+                component++;
+                dfs(i, isConnected, visi);
+            }
+        }
+        return component;
     }
 }
