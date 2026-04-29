@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1895-largest-magic-square](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1895-largest-magic-square) |
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
+| [1911-maximum-alternating-subsequence-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1911-maximum-alternating-subsequence-sum) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1975-maximum-matrix-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1975-maximum-matrix-sum) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
+| [1911-maximum-alternating-subsequence-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1911-maximum-alternating-subsequence-sum) |
 | [2054-two-best-non-overlapping-events](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2054-two-best-non-overlapping-events) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
