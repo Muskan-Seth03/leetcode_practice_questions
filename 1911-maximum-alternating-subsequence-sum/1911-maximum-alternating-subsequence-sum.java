@@ -1,36 +1,18 @@
-// memoization approach 
+// tabulation approach 
 // TC: O(n)  SC: O(n)
 class Solution {
     long[][] dp;
-    public long solve(int ind, int[] nums, boolean flag)
-    {
-        int n= nums.length;
-        if(ind >= n)
-        return 0;
-        
-        int f = flag ? 1 : 0;
-
-        if(dp[ind][f] != -1)
-        return dp[ind][f];
-
-        long skip = solve(ind+1, nums, flag);
-
-        long val = nums[ind];
-        if(flag == false)
-        {
-            val = -val;
-        } 
-        long take = val + solve(ind+1, nums, !flag);
-
-        return dp[ind][f] = Math.max(skip, take); 
-    }
     public long maxAlternatingSum(int[] nums) {
         int n= nums.length;
-        dp = new long[n][2];
-        
-        for(long[] d: dp)
-        Arrays.fill(d, -1);
+        dp = new long[n+1][2];
 
-        return solve(0, nums, true);
+        for(int i=1; i<=n; i++)
+        {
+            // even
+            dp[i][0] = Math.max(dp[i-1][1] - nums[i-1], dp[i-1][0]);
+            // odd
+            dp[i][1] = Math.max(dp[i-1][0] + nums[i-1], dp[i-1][1]);
+        }
+        return Math.max(dp[n][0], dp[n][1]);
     }
 }
