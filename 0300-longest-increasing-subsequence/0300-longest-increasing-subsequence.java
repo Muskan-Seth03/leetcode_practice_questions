@@ -1,39 +1,29 @@
-class Solution {   // printing LIS approach 
-    public int lengthOfLIS(int[] nums) {
+// memoization approach
+class Solution {
+    int[][] dp;
+    public int solve(int i, int prev, int[] nums)
+    {
         int n= nums.length;
-        int[]dp= new int[n];
-        int[]hash= new int[n];
 
-        Arrays.fill(dp, 1);
-        int maxi=1;
-        int last_index=0;
-        for(int ind=0; ind<=n-1; ind++)
-        {
-            hash[ind]=ind;
-            for(int prev=0; prev<ind; prev++)
-            {
-                if(nums[prev] < nums[ind]  && (1 + dp[prev]) > dp[ind])
-                {
-                    hash[ind]= prev;
-                    dp[ind]= 1 + dp[prev];
-                }
-            }
-            if(dp[ind]> maxi)
-            {
-                maxi= dp[ind];
-                last_index=ind;
-            }
-        }
-        ArrayList<Integer> list= new ArrayList<>();
-        list.add(nums[last_index]);
-        while(hash[last_index]!=last_index)
-        {
-            last_index=hash[last_index];
-            list.add(nums[last_index]);
-        }
-        Collections.reverse(list);
-        System.out.println(list);
-        return maxi;
+        if(i >= n)
+        return 0;
+        
+        if(dp[i][prev+1] != -1)
+        return dp[i][prev+1]; 
 
+        int skip = solve(i+1, prev, nums);
+
+        int take = (prev == -1 || nums[i] > nums[prev]) ? 1 + solve(i+1, i, nums) : 0;
+
+        return dp[i][prev+1] = Math.max(skip, take);
+    }
+    public int lengthOfLIS(int[] nums) {
+        int n = nums.length;
+        dp = new int[n+1][n+1];
+
+        for(int[] d: dp)
+        Arrays.fill(d, -1);
+
+        return solve(0, -1, nums);
     }
 }
