@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1458-max-dot-product-of-two-subsequences](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1539-kth-missing-positive-number](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1539-kth-missing-positive-number) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1876-map-of-highest-peak](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1876-map-of-highest-peak) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1877-minimize-maximum-pair-sum-in-array) |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0991-broken-calculator](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/0991-broken-calculator) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1975-maximum-matrix-sum](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1975-maximum-matrix-sum) |
@@ -602,6 +604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1200-minimum-absolute-difference](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1200-minimum-absolute-difference) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Muskan-Seth03/leetcode_practice_questions/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
