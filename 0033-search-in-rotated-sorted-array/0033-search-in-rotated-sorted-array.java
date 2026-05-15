@@ -1,40 +1,61 @@
-class Solution {  // using custom binary search 
-    public static int f(int nums[], int n, int target)
+// TC: O(log n)  SC: O(1)
+class Solution {
+    public int findPivot(int[] nums)
     {
-        int low= 0, high = n-1;
-        while(low<= high)
+        int n = nums.length;
+        // find min el index in array
+        int l = 0;
+        int r = n-1;
+
+        while(l < r)
         {
-            int mid= low +(high - low)/2;
-            if(nums[mid]== target)
-            return mid;
-            // we gotta find the sorted half that contains our target, 
-            //so that we can eliminate other half 
-            // check if the left half is sorted
-            if( nums[low]<= nums[mid])
+            int mid = l + (r-l)/2;
+            if(nums[mid] > nums[r])
             {
-                if( nums[low]<= target && target<= nums[mid])
-                {
-                    high= mid-1;
-                }
-                else
-                low= mid+1;
+                l = mid+1;
             }
-            // check if the right half is sorted
-            // either of the 2 half will be sorted 
             else
             {
-                if(nums[mid]<= target && target<= nums[high])
-                {
-                    low= mid+1;
-                }
-                else
-                high= mid-1;
-            } 
+                r = mid;
+            }
         }
-        return -1;
+        return r;
+    }
+    public int binarySearch(int low, int high, int[] nums, int target)
+    {
+        int ind = -1;
+        while(low <= high)
+        {
+            int mid = low + (high - low)/2;
+            if(nums[mid] == target)
+            {
+                ind = mid;
+                break;
+            }            
+            else if(nums[mid] < target)
+            {
+                low = mid + 1;
+            }
+            else
+            {
+                high = mid-1;
+            }
+        }
+        return ind;
     }
     public int search(int[] nums, int target) {
-        int n= nums.length;
-        return f(nums, n , target);   
+        int n = nums.length;
+        int pivot = findPivot(nums);
+
+        int ind = binarySearch(0, pivot-1, nums, target);
+
+        if(ind != -1)
+        {
+            return ind;
+        }    
+
+        ind = binarySearch(pivot, n-1, nums, target);
+
+        return ind;
     }
 }
