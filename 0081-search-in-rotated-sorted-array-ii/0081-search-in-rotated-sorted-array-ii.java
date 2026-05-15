@@ -1,54 +1,63 @@
-class Solution {  // using custom binary search 
-    public static boolean f(int nums[], int n, int target)
+class Solution {
+    public int findPivot(int[] nums)
     {
-        int low= 0, high = n-1;
-        while(low<= high)
+        int n = nums.length;
+        // find min el index in array
+        int l = 0;
+        int r = n-1;
+        // skip duplicate el from both ends
+        while(l<r && nums[l] == nums[l+1])
         {
-            int mid= low +(high - low)/2;
-            
-            if(nums[mid]== target)
-            return true;
-
-            // edge case: trim down the search space becoz since mid is not equal to target 
-            // then low and high el will also not be equal to target  
-            if(nums[low] == nums[mid] && nums[mid] == nums[high])
+            l++;
+        }
+        while(l<r && nums[r] == nums[r-1])
+        {
+            r--;
+        }
+        
+        while(l < r)
+        {
+            int mid = l + (r-l)/2;
+            if(nums[mid] > nums[r])
             {
-                low++;
-                high--;
-                continue;
+                l = mid+1;
             }
-
-            // we gotta find the sorted half that contains our target, 
-            //so that we can eliminate other half 
-            // check if the left half is sorted
-
-            if( nums[low]<= nums[mid])
-            {
-                if( nums[low]<= target && target<= nums[mid])
-                {
-                    high= mid-1;
-                }
-                else
-                low= mid+1;
-            }
-            // check if the right half is sorted
-            // either of the 2 half will be sorted 
             else
             {
-                if(nums[mid]<= target && target<= nums[high])
-                {
-                    low= mid+1;
-                }
-                else
-                high= mid-1;
-            } 
+                r = mid;
+            }
         }
-        return false;
+        return r;
     }
-
+    public boolean binarySearch(int low, int high, int[] nums, int target)
+    {
+        boolean ind = false;
+        while(low <= high)
+        {
+            int mid = low + (high - low)/2;
+            if(nums[mid] == target)
+            {
+                ind = true;
+                break;
+            }            
+            else if(nums[mid] < target)
+            {
+                low = mid + 1;
+            }
+            else
+            {
+                high = mid-1;
+            }
+        }
+        return ind;
+    }
     public boolean search(int[] nums, int target) {
-        int n= nums.length;
-        return f(nums, n , target);   
-    }
+        int n = nums.length;
+        int pivot = findPivot(nums);
 
+        if(binarySearch(0, pivot-1, nums, target))
+        return true;
+
+        return binarySearch(pivot, n-1, nums, target);
+    }
 }
