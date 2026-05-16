@@ -9,29 +9,26 @@
 
 public class Solution extends GuessGame {
     public int guessNumber(int n) {
-        if(n==1)
-        return 1;  //return the only available no that can be picked
-
-        int low=1;
-        int high=n;
-        while(low<=high)
+        int l = 1;
+        int r = n;
+        int number = -1;
+        while(l <= r)
         {
-            int mid= low+(high-low)/2;
-            if(guess(mid) ==0)
+            int mid = l + (r-l)/2;
+            if(guess(mid) == 0)
             {
-                return mid;
+                number = mid;
+                break;
             }
-            else if(guess(mid)==1)  // check right side
+            else if(guess(mid) == 1)
             {
-                low= mid+1;
-
+                l = mid+1;
             }
             else
             {
-                high= mid-1;
+                r = mid-1;
             }
         }
-
-        return low;
+        return number;
     }
 }
