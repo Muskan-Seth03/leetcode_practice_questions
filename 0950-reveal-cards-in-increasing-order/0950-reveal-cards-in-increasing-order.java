@@ -1,38 +1,28 @@
-// approach-1 (sorting + skip flag) 
+// approach-2 (using queue)  TC: O(n log n)  SC: O(n) 
 class Solution {
     public int[] deckRevealedIncreasing(int[] deck) {
         Arrays.sort(deck);
 
         int n = deck.length;
-        int i = 0;
-        int j = 0;
 
-        boolean skip = false;
         int[] res = new int[n];
-        Arrays.fill(res, 0);
 
-        res[j] = deck[i++];
-        skip = true;
-        j = (j+1) % n;
+        Queue<Integer> q = new LinkedList<>();
 
-        while(i < n)
+        for(int k=0; k<n; k++)
         {
-            if(res[j] == 0 && skip == false)
+            q.offer(k);
+        }
+
+        int i = 0;
+        while(!q.isEmpty())
+        {
+            int ind = q.poll();
+            res[ind] = deck[i++];
+            
+            if (!q.isEmpty()) 
             {
-                res[j] = deck[i];
-                skip = true;
-                j = (j+1) % n;
-                i++;
-            }                
-            else if(res[j] == 0 && skip == true)
-            {
-                j = (j+1) % n;
-                skip = false;
-            }
-            else
-            {
-                // res[j] != 0
-                j = (j+1) % n;
+                q.offer(q.poll());
             }
         }
         return res;        
