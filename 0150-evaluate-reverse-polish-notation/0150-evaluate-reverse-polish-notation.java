@@ -1,31 +1,28 @@
+//Approach-2 (Using map and lambda)
+//T.C : O(n)
+//S.C : O(n)
 class Solution {
-    public int operate(int a, int b, String token)
-    {
-        if(token.equals("+"))
-        return a + b;
-        else if(token.equals("-"))
-        return b - a;
-        else if(token.equals("*"))
-        return a * b;
-        else  
-        return b / a;
-    }
     public int evalRPN(String[] tokens) {
-        Stack<Integer> s = new Stack<>();
+        Stack<Integer> st = new Stack<>();
+        int result = 0;
 
-        for(String token : tokens)
-        {
-            if(token.equals("+") || token.equals("-") || 
-               token.equals("*") || token.equals("/"))
-            {
-                int val1 = s.pop();
-                int val2 = s.pop();
-                int res = operate(val1, val2, token);
-                s.push(res);
+        Map<String, BiFunction<Integer, Integer, Integer>> mp = new HashMap<>();
+        mp.put("+", (a, b) -> a + b);
+        mp.put("-", (a, b) -> a - b);
+        mp.put("*", (a, b) -> (int)((long)a * (long)b));
+        mp.put("/", (a, b) -> a / b);
+
+        for (String s : tokens) {
+            if (mp.containsKey(s)) {
+                int b = st.pop();
+                int a = st.pop();
+
+                result = mp.get(s).apply(a, b);
+                st.push(result);
+            } else {
+                st.push(Integer.parseInt(s));
             }
-            else
-            s.push(Integer.valueOf(token));
         }
-        return s.peek();
+        return st.pop();
     }
 }
