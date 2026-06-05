@@ -1,37 +1,45 @@
-//using stack    TC:O(n)    SC:O(n)
+// using stack
+// TC: O(n)  SC: O(n)
 class Solution {
     public int[] asteroidCollision(int[] asteroids) {
-        Stack<Integer> stack = new Stack<>();
+        int n =  asteroids.length;
+        
+        Stack<Integer> s = new Stack<>();
 
-        for (int asteroid : asteroids) {
-            boolean destroyed = false;
+        for(int a : asteroids)
+        {
+            while(!s.isEmpty() && s.peek() > 0 && a < 0)
+            {
+                int sum = s.peek() + a;
 
-            if (asteroid > 0) {
-                // Positive asteroids → just push
-                stack.push(asteroid);
-            } else {
-                // asteroid < 0 → check for collisions
-                while (!stack.isEmpty() && stack.peek() > 0) {
-                    if (stack.peek() < -asteroid) {
-                        stack.pop(); // Top smaller → destroyed
-                        continue;    // Keep checking
-                    } else if (stack.peek() == -asteroid) {
-                        stack.pop(); // Both destroyed
-                    }
-                    destroyed = true; // Incoming asteroid destroyed
-                    break;
+                if(sum < 0)
+                {
+                    s.pop();
                 }
-
-                if (!destroyed) {
-                    stack.push(asteroid); // Survives
+                else if(sum > 0)
+                {
+                    a = 0;
+                }
+                else if(sum == 0)
+                {
+                    s.pop();
+                    a = 0;
                 }
             }
+
+            if(a != 0)
+            s.push(a);
         }
 
-        // Convert stack to result array
-        int[] res = new int[stack.size()];
-        for (int i = res.length - 1; i >= 0; i--) {
-            res[i] = stack.pop();
+        int l = s.size();
+        int[] res = new int[l];
+
+        int i = 1;
+        while(!s.isEmpty())
+        {
+            res[l-i] = s.peek();
+            i++;
+            s.pop(); 
         }
         return res;
     }
