@@ -1,4 +1,4 @@
-// tabulation approach
+// tabulation approach + printing LCS
 // TC: O(m*n)  SC: O(m*n)
 class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
@@ -30,6 +30,33 @@ class Solution {
                 }
             }
         }
+
+        // printing lcs
+        int i = m;
+        int j = n;
+        StringBuilder sb = new StringBuilder();
+        while(i>0 && j>0)
+        {
+            if(text1.charAt(i-1) == text2.charAt(j-1))
+            {
+                sb.append(text1.charAt(i-1));
+                i--;
+                j--;
+            }
+            else
+            {
+                if(t[i-1][j] > t[i][j-1])
+                {
+                    i--;
+                }
+                else
+                {
+                    j--;
+                }
+            }
+        }
+        System.out.println(sb.reverse().toString());
+
         return t[m][n];
     }
 }
