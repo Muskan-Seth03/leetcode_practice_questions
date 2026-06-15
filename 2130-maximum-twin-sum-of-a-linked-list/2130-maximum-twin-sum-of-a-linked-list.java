@@ -8,60 +8,30 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-// middle node + reverse list + store the maxSum 
-// TC: O(n)    SC: O(1)
+// Approach 1 : Using stack
 class Solution {
-    public ListNode reverseList(ListNode head) {
-        if(head == null)
-        return head;
-        
-        ListNode prev= null;
-        ListNode curr= head;
-        while(curr != null)
-        {
-            ListNode temp = curr.next;
-            curr.next = prev;
-            prev= curr;
-            curr= temp;
-        }
-        return prev;
-    }
     public int pairSum(ListNode head) {
-        // find the middle node 
-        ListNode slow= head;
-        ListNode fast= head;
-        while(fast != null && fast.next != null)
-        {
-            slow= slow.next;
-            fast= fast.next.next;
-        }
-        // break the linked list into 2 half and reverse the second half 
-        ListNode head2 = null;
-        if(fast != null)
-        {
-            head2= slow.next;
-            // slow.next = null;
-        }
-        else if(fast == null)
-        {
-            head2= slow;
-        }
-        ListNode newHead = reverseList(head2);
-        ListNode temp2= newHead;
-
-        ListNode temp1 = head;
+        Stack<Integer> s = new Stack<>();
         
-        int maxSum= 0;
-        while(temp1 != slow && temp2 != null)
-        {
-            int sum = 0;
-
-            sum += temp1.val + temp2.val;
-            maxSum = Math.max(sum, maxSum); 
-            
-            temp1 = temp1.next;
-            temp2 = temp2.next;
+        ListNode curr = head;
+        int n = 0;
+        // no of nodes in the list
+        while (curr != null) {
+            n++;
+            s.push(curr.val);
+            curr = curr.next;
         }
-        return maxSum;      
+        
+        curr = head;
+        int res = 0;
+        int maxEl = 0;
+
+        for(int i=0; i<n/2; i++)
+        {
+            maxEl = Math.max(curr.val + s.peek(), maxEl);
+            curr = curr.next;
+            s.pop();
+        }
+        return maxEl;   
     }
 }
