@@ -1,61 +1,86 @@
-// bfs approach 
-// TC: O(V + E)    SC: O(V + E)
-class Solution {
-    public void bfs(int start, List<List<Integer>> adjList, boolean[] visi, int[] count) {
+// dsu approach
+// TC: O(E * alpha(V))
+class DSU
+{
+    int[] parent;
+    int[] size;
 
-        Queue<Integer> q = new LinkedList<>();
-        q.offer(start);
-        visi[start] = true;
+    DSU(int n)
+    {
+        parent = new int[n];
+        size = new int[n];
 
-        while (!q.isEmpty()) {
-
-            int node = q.poll();
-
-            count[0]++;                       // vertices
-            count[1] += adjList.get(node).size(); // degree sum
-
-            for (int neighbour : adjList.get(node)) {
-
-                if (!visi[neighbour]) {
-                    visi[neighbour] = true;
-                    q.offer(neighbour);
-                }
-            }
+        for(int i=0; i<n; i++)
+        {
+            parent[i] = i;
+            size[i] = 1; 
         }
     }
+    public int find(int x)
+    {
+        if(parent[x] == x)
+        return x;
 
+        return parent[x] = find(parent[x]);     // path compression
+    }
+
+    public void union(int x, int y)
+    {
+        int x_par = find(x);
+        int y_par = find(y);
+
+        if(x_par == y_par)
+        return;
+
+        if(size[x_par] > size[y_par])
+        {
+            parent[y_par] = x_par;
+            size[x_par] += size[y_par]; 
+        }
+        else if(size[x_par] < size[y_par])
+        { 
+            parent[x_par] = y_par;
+            size[y_par] += size[x_par]; 
+        }
+        else
+        {
+            parent[y_par] = x_par;
+            size[x_par] += size[y_par]; 
+        }
+    }
+}
+class Solution {
     public int countCompleteComponents(int n, int[][] edges) {
+        DSU dsu = new DSU(n);
 
-        List<List<Integer>> adjList = new ArrayList<>();
+        Map<Integer, Integer> map = new HashMap<>();  // root -> edge
 
-        for (int i = 0; i < n; i++)
-            adjList.add(new ArrayList<>());
+        for(int[] edge: edges)
+        {
+            int u = edge[0];
+            int v = edge[1];
 
-        for (int[] edge : edges) {
-            adjList.get(edge[0]).add(edge[1]);
-            adjList.get(edge[1]).add(edge[0]);
+            dsu.union(u, v);       // alpha(V)
         }
 
-        boolean[] visi = new boolean[n];
+        for(int[] edge: edges)
+        {
+            int root = dsu.find(edge[0]);
+            map.put(root, map.getOrDefault(root, 0) + 1);
+        }
 
-        int res = 0;
+        int res = 0; 
+        for(int i=0; i<n; i++)
+        {
+            if(dsu.find(i) == i)
+            {
+                int v = dsu.size[i];
+                int e = map.getOrDefault(i, 0);
 
-        for (int i = 0; i < n; i++) {
-
-            if (!visi[i]) {
-
-                int[] count = new int[2];
-
-                bfs(i, adjList, visi, count);
-
-                int vertices = count[0];
-                int degreeSum = count[1];
-
-                if (degreeSum == vertices * (vertices - 1))
-                    res++;
+                if((v * (v-1)/2) == e)
+                res++; 
             }
         }
-
         return res;
     }
 }
