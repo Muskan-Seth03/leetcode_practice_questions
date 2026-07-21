@@ -1,46 +1,55 @@
+// iterate L -> R  eliminate extra close bracket
+// iterate R -> L eliminate extra open bracket
+
 // TC: O(n)    SC: O(n)
 class Solution {
     public String minRemoveToMakeValid(String s) {
-        Stack<Integer> st = new Stack<>();
-
-        Set<Integer> set = new HashSet<>();
-
-        for(int i=0; i<s.length(); i++)
-        {
-            char ch = s.charAt(i);
-            if(ch == '(')
-            {
-                st.push(i);
-            }
-            else if(ch == ')')
-            {
-                if(!st.isEmpty())
-                {
-                    st.pop();
-                }
-                else 
-                {
-                    set.add(i);
-                }
-            }
-        }
-        // only opening bracket present then, add them to set
-        while(!st.isEmpty())
-        {
-            set.add(st.peek());
-            st.pop();
-        }
-
-        // skip them in orig string
-
+        int open = 0;
         String res = "";
+
         for(int i=0; i<s.length(); i++)
         {
-            if(!set.contains(i))
+            if(s.charAt(i) == '(')
+            {
+                open++;
+                res += s.charAt(i);
+            }          
+            else if(s.charAt(i) == ')')
+            {
+                if(open > 0)
+                {
+                    open--;
+                    res += s.charAt(i);
+                }
+            }
+            else
             {
                 res += s.charAt(i);
+            } 
+        }
+
+        int close = 0;
+        String result = "";
+        for(int i = res.length()-1; i >= 0; i--)
+        {
+            if(res.charAt(i) == ')')
+            {
+                close++;
+                result += res.charAt(i);
+            }
+            else if(res.charAt(i) == '(')
+            {
+                if(close > 0)
+                {
+                    close--;
+                    result += res.charAt(i);
+                }
+            }
+            else
+            {
+                result += res.charAt(i);
             }
         }
-        return res;
+        return new StringBuilder(result).reverse().toString();
     }
 }
