@@ -1,6 +1,6 @@
 // iterate L -> R  eliminate extra close bracket
 // iterate R -> L eliminate extra open bracket
-
+// Approach 3
 // TC: O(n)    SC: O(n)
 class Solution {
     public String minRemoveToMakeValid(String s) {
@@ -28,20 +28,18 @@ class Solution {
             } 
         }
 
-        int close = 0;
+        int ignoreOpen = open;
         String result = "";
         for(int i = res.length()-1; i >= 0; i--)
         {
-            if(res.charAt(i) == ')')
+            if(res.charAt(i) == '(')
             {
-                close++;
-                result += res.charAt(i);
-            }
-            else if(res.charAt(i) == '(')
-            {
-                if(close > 0)
+                if(ignoreOpen > 0)
                 {
-                    close--;
+                    ignoreOpen--;
+                }
+                else
+                {
                     result += res.charAt(i);
                 }
             }
