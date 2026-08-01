@@ -1,7 +1,7 @@
 // recursion approach
 // TC: O(2^n)  SC: O(n)
 class Solution {
-    public long solve(int i, int j, int[] nums)
+    public long solve(int i, int j, int[] nums, long[][] dp)
     {
         // base case
         if(i > j)
@@ -10,10 +10,13 @@ class Solution {
         if(i == j)
         return nums[i];
 
-        long take_i = nums[i] + Math.min(solve(i+2, j, nums), solve(i+1, j-1, nums));
-        long take_j = nums[j] + Math.min(solve(i+1, j-1, nums), solve(i, j-2, nums));
+        if(dp[i][j] != -1)
+        return dp[i][j];
 
-        return Math.max(take_i, take_j);
+        long take_i = nums[i] + Math.min(solve(i+2, j, nums, dp), solve(i+1, j-1, nums, dp));
+        long take_j = nums[j] + Math.min(solve(i+1, j-1, nums, dp), solve(i, j-2, nums, dp));
+
+        return dp[i][j] = Math.max(take_i, take_j);
     }
     public boolean predictTheWinner(int[] nums) {
         int n = nums.length;
@@ -23,8 +26,12 @@ class Solution {
         {
             total += nums[i];
         }
+        long dp[][] = new long[n][n];
         
-        long player1 = solve(0, n-1, nums);
+        for(long d[] : dp)
+        Arrays.fill(d, -1);
+
+        long player1 = solve(0, n-1, nums, dp);
         long player2 = total - player1;
 
         return player1 >= player2;
