@@ -1,5 +1,5 @@
-// recursion approach
-// TC: O(2^n)  SC: O(n)
+// memoization approach
+// TC: O(n^2)  SC: O(n^2)
 class Solution {
     public long solve(int i, int j, int[] nums, long[][] dp)
     {
